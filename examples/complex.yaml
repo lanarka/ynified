@@ -1,0 +1,4675 @@
+__module3:
+  mod3a: 78
+__now: '20:27:13'
+example:
+  a: 10
+  b: 10
+  c: -85
+example2:
+  mod2a:
+  - 1
+  - 2
+  - 3
+foo:
+  a: 30
+  x: 10
+  y: 20
+  z: 10
+gsplash/vga.png:
+- 137
+- 80
+- 78
+- 71
+- 13
+- 10
+- 26
+- 10
+- 0
+- 0
+- 0
+- 13
+- 73
+- 72
+- 68
+- 82
+- 0
+- 0
+- 2
+- 128
+- 0
+- 0
+- 1
+- 224
+- 4
+- 3
+- 0
+- 0
+- 0
+- 199
+- 255
+- 193
+- 215
+- 0
+- 0
+- 0
+- 27
+- 80
+- 76
+- 84
+- 69
+- 204
+- 204
+- 204
+- 0
+- 0
+- 0
+- 153
+- 153
+- 153
+- 102
+- 102
+- 102
+- 76
+- 76
+- 76
+- 51
+- 51
+- 51
+- 127
+- 127
+- 127
+- 178
+- 178
+- 178
+- 25
+- 25
+- 25
+- 39
+- 96
+- 123
+- 189
+- 0
+- 0
+- 0
+- 9
+- 112
+- 72
+- 89
+- 115
+- 0
+- 0
+- 14
+- 196
+- 0
+- 0
+- 14
+- 196
+- 1
+- 149
+- 43
+- 14
+- 27
+- 0
+- 0
+- 8
+- 29
+- 73
+- 68
+- 65
+- 84
+- 120
+- 156
+- 237
+- 219
+- 207
+- 115
+- 211
+- 70
+- 20
+- 192
+- 113
+- 163
+- 200
+- 22
+- 71
+- 22
+- 28
+- 240
+- 49
+- 78
+- 59
+- 208
+- 35
+- 102
+- 40
+- 229
+- 136
+- 74
+- 104
+- 57
+- 214
+- 45
+- 180
+- 87
+- 12
+- 37
+- 112
+- 36
+- 3
+- 25
+- 124
+- 140
+- 128
+- 194
+- 191
+- 93
+- 173
+- 126
+- 190
+- 253
+- 33
+- 91
+- 54
+- 26
+- 141
+- 50
+- 243
+- 253
+- 28
+- 32
+- 142
+- 28
+- 61
+- 249
+- 249
+- 105
+- 181
+- 187
+- 90
+- 141
+- 70
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 192
+- 208
+- 4
+- 247
+- 159
+- 63
+- 127
+- 246
+- 224
+- 157
+- 187
+- 33
+- 250
+- 232
+- 190
+- 241
+- 241
+- 155
+- 239
+- 138
+- 245
+- 209
+- 12
+- 19
+- 189
+- 122
+- 242
+- 252
+- 217
+- 227
+- 59
+- 158
+- 3
+- 250
+- 206
+- 56
+- 125
+- 122
+- 173
+- 50
+- 179
+- 223
+- 156
+- 45
+- 75
+- 101
+- 188
+- 252
+- 144
+- 100
+- 111
+- 252
+- 236
+- 73
+- 117
+- 91
+- 99
+- 117
+- 77
+- 190
+- 124
+- 159
+- 239
+- 81
+- 253
+- 109
+- 236
+- 178
+- 131
+- 56
+- 125
+- 250
+- 73
+- 149
+- 46
+- 172
+- 45
+- 7
+- 202
+- 72
+- 224
+- 135
+- 242
+- 125
+- 95
+- 247
+- 15
+- 182
+- 48
+- 18
+- 88
+- 237
+- 81
+- 221
+- 232
+- 56
+- 78
+- 143
+- 66
+- 93
+- 123
+- 199
+- 199
+- 167
+- 79
+- 18
+- 39
+- 129
+- 115
+- 35
+- 129
+- 65
+- 90
+- 23
+- 127
+- 189
+- 60
+- 126
+- 181
+- 84
+- 234
+- 159
+- 125
+- 131
+- 5
+- 74
+- 38
+- 112
+- 162
+- 244
+- 30
+- 239
+- 100
+- 187
+- 252
+- 212
+- 105
+- 156
+- 30
+- 69
+- 137
+- 154
+- 30
+- 101
+- 63
+- 5
+- 15
+- 47
+- 156
+- 77
+- 50
+- 129
+- 115
+- 53
+- 123
+- 145
+- 253
+- 58
+- 86
+- 179
+- 125
+- 79
+- 174
+- 181
+- 145
+- 192
+- 88
+- 29
+- 190
+- 200
+- 35
+- 61
+- 84
+- 234
+- 168
+- 203
+- 56
+- 61
+- 90
+- 171
+- 217
+- 81
+- 249
+- 179
+- 117
+- 184
+- 99
+- 37
+- 19
+- 152
+- 22
+- 207
+- 239
+- 249
+- 79
+- 145
+- 91
+- 171
+- 109
+- 45
+- 101
+- 2
+- 211
+- 22
+- 226
+- 69
+- 249
+- 243
+- 66
+- 93
+- 239
+- 50
+- 78
+- 143
+- 18
+- 245
+- 168
+- 105
+- 211
+- 74
+- 197
+- 34
+- 129
+- 235
+- 186
+- 157
+- 58
+- 87
+- 211
+- 253
+- 130
+- 77
+- 212
+- 84
+- 36
+- 112
+- 46
+- 206
+- 219
+- 137
+- 154
+- 117
+- 24
+- 167
+- 71
+- 97
+- 243
+- 49
+- 70
+- 234
+- 198
+- 74
+- 36
+- 48
+- 174
+- 51
+- 157
+- 150
+- 198
+- 209
+- 94
+- 209
+- 206
+- 212
+- 3
+- 145
+- 192
+- 165
+- 220
+- 203
+- 162
+- 172
+- 198
+- 46
+- 226
+- 244
+- 104
+- 222
+- 92
+- 128
+- 87
+- 213
+- 31
+- 34
+- 129
+- 81
+- 85
+- 34
+- 35
+- 157
+- 136
+- 139
+- 189
+- 162
+- 37
+- 135
+- 147
+- 58
+- 129
+- 145
+- 241
+- 221
+- 165
+- 209
+- 186
+- 139
+- 211
+- 163
+- 100
+- 214
+- 184
+- 41
+- 86
+- 239
+- 68
+- 2
+- 195
+- 170
+- 145
+- 26
+- 233
+- 214
+- 235
+- 230
+- 62
+- 193
+- 66
+- 117
+- 75
+- 36
+- 112
+- 34
+- 247
+- 152
+- 190
+- 186
+- 213
+- 89
+- 156
+- 30
+- 153
+- 31
+- 194
+- 218
+- 116
+- 115
+- 36
+- 18
+- 120
+- 102
+- 148
+- 234
+- 134
+- 188
+- 111
+- 176
+- 82
+- 47
+- 68
+- 2
+- 67
+- 163
+- 75
+- 24
+- 21
+- 71
+- 210
+- 69
+- 156
+- 30
+- 149
+- 39
+- 142
+- 199
+- 58
+- 253
+- 36
+- 34
+- 129
+- 11
+- 163
+- 57
+- 90
+- 168
+- 61
+- 58
+- 24
+- 81
+- 50
+- 29
+- 25
+- 9
+- 188
+- 144
+- 91
+- 139
+- 98
+- 235
+- 32
+- 78
+- 159
+- 230
+- 205
+- 173
+- 244
+- 114
+- 54
+- 146
+- 9
+- 52
+- 107
+- 225
+- 76
+- 221
+- 221
+- 61
+- 216
+- 56
+- 205
+- 152
+- 145
+- 64
+- 227
+- 203
+- 43
+- 18
+- 216
+- 65
+- 156
+- 62
+- 197
+- 135
+- 77
+- 91
+- 14
+- 244
+- 41
+- 85
+- 39
+- 48
+- 50
+- 6
+- 91
+- 89
+- 46
+- 118
+- 166
+- 139
+- 107
+- 67
+- 5
+- 94
+- 239
+- 42
+- 78
+- 159
+- 154
+- 27
+- 233
+- 185
+- 254
+- 238
+- 235
+- 4
+- 90
+- 141
+- 229
+- 65
+- 209
+- 228
+- 87
+- 172
+- 66
+- 57
+- 246
+- 236
+- 49
+- 208
+- 185
+- 49
+- 46
+- 34
+- 215
+- 140
+- 173
+- 183
+- 218
+- 196
+- 25
+- 152
+- 160
+- 249
+- 248
+- 18
+- 93
+- 155
+- 117
+- 2
+- 205
+- 22
+- 63
+- 253
+- 67
+- 51
+- 243
+- 161
+- 89
+- 201
+- 129
+- 175
+- 101
+- 200
+- 218
+- 91
+- 163
+- 27
+- 35
+- 247
+- 113
+- 144
+- 215
+- 218
+- 150
+- 56
+- 67
+- 19
+- 54
+- 94
+- 67
+- 66
+- 245
+- 109
+- 36
+- 19
+- 104
+- 95
+- 109
+- 204
+- 51
+- 45
+- 125
+- 163
+- 177
+- 121
+- 238
+- 59
+- 243
+- 98
+- 61
+- 178
+- 149
+- 101
+- 151
+- 200
+- 172
+- 175
+- 243
+- 214
+- 110
+- 75
+- 156
+- 161
+- 25
+- 55
+- 182
+- 209
+- 171
+- 172
+- 134
+- 234
+- 4
+- 94
+- 177
+- 222
+- 153
+- 152
+- 37
+- 23
+- 42
+- 249
+- 58
+- 80
+- 158
+- 10
+- 204
+- 79
+- 78
+- 153
+- 192
+- 85
+- 61
+- 20
+- 206
+- 122
+- 157
+- 45
+- 226
+- 12
+- 205
+- 149
+- 236
+- 35
+- 100
+- 179
+- 194
+- 247
+- 140
+- 13
+- 197
+- 40
+- 161
+- 78
+- 224
+- 153
+- 252
+- 176
+- 35
+- 93
+- 78
+- 230
+- 158
+- 98
+- 89
+- 57
+- 115
+- 95
+- 239
+- 50
+- 239
+- 224
+- 201
+- 4
+- 142
+- 197
+- 219
+- 202
+- 46
+- 243
+- 182
+- 56
+- 3
+- 115
+- 166
+- 191
+- 246
+- 98
+- 86
+- 248
+- 240
+- 72
+- 108
+- 40
+- 174
+- 126
+- 117
+- 2
+- 237
+- 254
+- 206
+- 194
+- 156
+- 171
+- 54
+- 74
+- 208
+- 91
+- 128
+- 89
+- 183
+- 200
+- 76
+- 96
+- 36
+- 102
+- 99
+- 202
+- 17
+- 240
+- 182
+- 56
+- 3
+- 163
+- 19
+- 84
+- 205
+- 255
+- 30
+- 138
+- 62
+- 107
+- 209
+- 129
+- 173
+- 19
+- 184
+- 178
+- 122
+- 180
+- 78
+- 15
+- 87
+- 148
+- 160
+- 183
+- 0
+- 15
+- 202
+- 171
+- 172
+- 184
+- 72
+- 204
+- 171
+- 209
+- 112
+- 53
+- 239
+- 178
+- 53
+- 206
+- 176
+- 44
+- 102
+- 122
+- 86
+- 248
+- 240
+- 222
+- 157
+- 143
+- 183
+- 159
+- 42
+- 113
+- 193
+- 43
+- 47
+- 126
+- 117
+- 2
+- 237
+- 74
+- 176
+- 63
+- 168
+- 40
+- 65
+- 127
+- 1
+- 206
+- 243
+- 106
+- 51
+- 18
+- 24
+- 36
+- 234
+- 115
+- 246
+- 67
+- 250
+- 37
+- 222
+- 109
+- 25
+- 103
+- 88
+- 210
+- 126
+- 116
+- 172
+- 110
+- 228
+- 135
+- 248
+- 86
+- 213
+- 237
+- 247
+- 186
+- 40
+- 167
+- 230
+- 4
+- 186
+- 67
+- 152
+- 170
+- 4
+- 189
+- 5
+- 24
+- 21
+- 87
+- 3
+- 179
+- 243
+- 23
+- 42
+- 53
+- 125
+- 51
+- 10
+- 30
+- 42
+- 245
+- 103
+- 235
+- 56
+- 131
+- 18
+- 79
+- 15
+- 212
+- 180
+- 252
+- 138
+- 23
+- 117
+- 151
+- 33
+- 46
+- 230
+- 210
+- 235
+- 4
+- 218
+- 141
+- 185
+- 251
+- 193
+- 202
+- 18
+- 244
+- 23
+- 96
+- 222
+- 45
+- 178
+- 19
+- 152
+- 181
+- 31
+- 255
+- 169
+- 58
+- 127
+- 45
+- 226
+- 12
+- 202
+- 114
+- 42
+- 186
+- 18
+- 147
+- 234
+- 147
+- 87
+- 195
+- 129
+- 93
+- 18
+- 88
+- 150
+- 160
+- 183
+- 0
+- 139
+- 110
+- 145
+- 147
+- 192
+- 209
+- 251
+- 172
+- 249
+- 173
+- 103
+- 166
+- 47
+- 89
+- 2
+- 147
+- 67
+- 217
+- 211
+- 95
+- 149
+- 221
+- 223
+- 106
+- 8
+- 223
+- 156
+- 64
+- 187
+- 187
+- 49
+- 42
+- 75
+- 208
+- 95
+- 128
+- 213
+- 16
+- 215
+- 74
+- 96
+- 240
+- 180
+- 184
+- 47
+- 188
+- 67
+- 156
+- 33
+- 73
+- 148
+- 236
+- 183
+- 134
+- 229
+- 167
+- 92
+- 150
+- 215
+- 131
+- 157
+- 18
+- 152
+- 151
+- 160
+- 191
+- 0
+- 199
+- 101
+- 3
+- 105
+- 38
+- 112
+- 146
+- 30
+- 192
+- 151
+- 151
+- 63
+- 235
+- 251
+- 194
+- 239
+- 218
+- 199
+- 25
+- 144
+- 68
+- 25
+- 199
+- 91
+- 76
+- 37
+- 213
+- 35
+- 248
+- 221
+- 18
+- 168
+- 75
+- 208
+- 95
+- 128
+- 117
+- 111
+- 196
+- 190
+- 10
+- 31
+- 234
+- 5
+- 28
+- 186
+- 14
+- 191
+- 182
+- 143
+- 51
+- 32
+- 137
+- 89
+- 46
+- 197
+- 141
+- 157
+- 121
+- 117
+- 208
+- 59
+- 181
+- 129
+- 89
+- 9
+- 250
+- 11
+- 176
+- 158
+- 19
+- 48
+- 18
+- 24
+- 87
+- 87
+- 176
+- 215
+- 170
+- 232
+- 72
+- 95
+- 182
+- 54
+- 208
+- 28
+- 244
+- 231
+- 163
+- 45
+- 61
+- 113
+- 92
+- 216
+- 49
+- 129
+- 161
+- 154
+- 249
+- 11
+- 112
+- 93
+- 205
+- 211
+- 203
+- 4
+- 158
+- 139
+- 190
+- 251
+- 219
+- 226
+- 26
+- 126
+- 233
+- 18
+- 104
+- 12
+- 221
+- 243
+- 1
+- 156
+- 152
+- 196
+- 220
+- 165
+- 31
+- 168
+- 197
+- 202
+- 127
+- 143
+- 101
+- 89
+- 165
+- 69
+- 38
+- 112
+- 41
+- 78
+- 207
+- 104
+- 153
+- 231
+- 248
+- 146
+- 245
+- 3
+- 173
+- 251
+- 174
+- 121
+- 227
+- 183
+- 170
+- 127
+- 185
+- 195
+- 72
+- 36
+- 51
+- 86
+- 222
+- 38
+- 75
+- 204
+- 146
+- 138
+- 4
+- 154
+- 183
+- 220
+- 198
+- 249
+- 171
+- 75
+- 54
+- 18
+- 73
+- 204
+- 195
+- 203
+- 62
+- 168
+- 156
+- 84
+- 223
+- 97
+- 44
+- 156
+- 153
+- 43
+- 239
+- 4
+- 163
+- 184
+- 179
+- 33
+- 18
+- 104
+- 222
+- 239
+- 136
+- 242
+- 43
+- 216
+- 37
+- 27
+- 11
+- 91
+- 235
+- 255
+- 2
+- 157
+- 64
+- 57
+- 165
+- 217
+- 60
+- 27
+- 19
+- 251
+- 102
+- 73
+- 2
+- 61
+- 37
+- 225
+- 249
+- 189
+- 152
+- 212
+- 19
+- 9
+- 180
+- 154
+- 187
+- 85
+- 150
+- 207
+- 86
+- 113
+- 134
+- 195
+- 73
+- 224
+- 205
+- 122
+- 24
+- 167
+- 53
+- 207
+- 7
+- 46
+- 125
+- 243
+- 116
+- 233
+- 37
+- 56
+- 246
+- 148
+- 96
+- 57
+- 140
+- 211
+- 68
+- 2
+- 173
+- 201
+- 230
+- 252
+- 139
+- 107
+- 21
+- 103
+- 56
+- 98
+- 243
+- 4
+- 209
+- 9
+- 52
+- 238
+- 234
+- 200
+- 25
+- 233
+- 71
+- 198
+- 95
+- 38
+- 158
+- 37
+- 53
+- 186
+- 15
+- 24
+- 122
+- 74
+- 80
+- 52
+- 170
+- 34
+- 129
+- 246
+- 253
+- 152
+- 252
+- 110
+- 72
+- 155
+- 56
+- 3
+- 178
+- 176
+- 19
+- 120
+- 61
+- 45
+- 132
+- 47
+- 39
+- 149
+- 165
+- 210
+- 255
+- 254
+- 58
+- 18
+- 67
+- 137
+- 130
+- 239
+- 94
+- 69
+- 214
+- 7
+- 244
+- 148
+- 96
+- 50
+- 171
+- 247
+- 248
+- 68
+- 77
+- 245
+- 127
+- 71
+- 213
+- 93
+- 164
+- 74
+- 190
+- 182
+- 163
+- 77
+- 156
+- 1
+- 177
+- 90
+- 28
+- 93
+- 125
+- 87
+- 148
+- 67
+- 95
+- 30
+- 157
+- 187
+- 101
+- 110
+- 119
+- 37
+- 31
+- 132
+- 120
+- 74
+- 208
+- 221
+- 163
+- 62
+- 79
+- 15
+- 172
+- 84
+- 229
+- 187
+- 108
+- 17
+- 103
+- 72
+- 172
+- 27
+- 255
+- 186
+- 27
+- 211
+- 144
+- 192
+- 22
+- 247
+- 107
+- 139
+- 65
+- 136
+- 91
+- 130
+- 254
+- 4
+- 218
+- 119
+- 4
+- 163
+- 182
+- 113
+- 134
+- 196
+- 186
+- 137
+- 168
+- 215
+- 10
+- 76
+- 78
+- 133
+- 88
+- 233
+- 127
+- 245
+- 112
+- 213
+- 90
+- 49
+- 224
+- 89
+- 83
+- 83
+- 142
+- 130
+- 221
+- 18
+- 148
+- 123
+- 252
+- 87
+- 221
+- 212
+- 255
+- 189
+- 115
+- 22
+- 38
+- 20
+- 197
+- 182
+- 61
+- 206
+- 160
+- 132
+- 230
+- 23
+- 236
+- 28
+- 174
+- 88
+- 27
+- 179
+- 220
+- 182
+- 102
+- 165
+- 26
+- 5
+- 251
+- 46
+- 196
+- 149
+- 250
+- 34
+- 226
+- 182
+- 129
+- 215
+- 91
+- 197
+- 25
+- 148
+- 192
+- 252
+- 190
+- 231
+- 246
+- 225
+- 54
+- 174
+- 206
+- 138
+- 157
+- 254
+- 109
+- 61
+- 13
+- 227
+- 187
+- 16
+- 87
+- 234
+- 4
+- 78
+- 188
+- 87
+- 225
+- 173
+- 113
+- 6
+- 198
+- 92
+- 11
+- 229
+- 28
+- 174
+- 177
+- 62
+- 80
+- 212
+- 85
+- 228
+- 230
+- 72
+- 76
+- 195
+- 108
+- 42
+- 193
+- 58
+- 129
+- 145
+- 183
+- 31
+- 184
+- 53
+- 206
+- 192
+- 44
+- 100
+- 191
+- 213
+- 61
+- 220
+- 166
+- 21
+- 170
+- 161
+- 179
+- 100
+- 69
+- 206
+- 3
+- 110
+- 42
+- 65
+- 209
+- 145
+- 94
+- 250
+- 70
+- 34
+- 219
+- 226
+- 12
+- 205
+- 153
+- 60
+- 143
+- 198
+- 78
+- 159
+- 161
+- 105
+- 141
+- 180
+- 187
+- 246
+- 197
+- 152
+- 7
+- 220
+- 80
+- 130
+- 34
+- 129
+- 43
+- 163
+- 207
+- 28
+- 169
+- 188
+- 252
+- 183
+- 196
+- 25
+- 154
+- 3
+- 89
+- 44
+- 11
+- 103
+- 193
+- 185
+- 92
+- 165
+- 191
+- 216
+- 180
+- 122
+- 222
+- 156
+- 136
+- 222
+- 80
+- 130
+- 34
+- 129
+- 87
+- 173
+- 217
+- 152
+- 27
+- 45
+- 226
+- 12
+- 207
+- 178
+- 126
+- 156
+- 42
+- 84
+- 206
+- 184
+- 83
+- 38
+- 240
+- 106
+- 189
+- 168
+- 126
+- 237
+- 60
+- 27
+- 97
+- 77
+- 68
+- 55
+- 151
+- 160
+- 72
+- 96
+- 160
+- 204
+- 249
+- 192
+- 139
+- 22
+- 113
+- 134
+- 167
+- 126
+- 80
+- 41
+- 253
+- 8
+- 223
+- 236
+- 173
+- 50
+- 129
+- 81
+- 245
+- 232
+- 90
+- 144
+- 56
+- 249
+- 89
+- 155
+- 165
+- 18
+- 54
+- 62
+- 60
+- 97
+- 174
+- 206
+- 146
+- 51
+- 210
+- 229
+- 28
+- 198
+- 198
+- 56
+- 195
+- 147
+- 158
+- 37
+- 249
+- 170
+- 162
+- 32
+- 22
+- 207
+- 124
+- 149
+- 100
+- 2
+- 245
+- 100
+- 223
+- 47
+- 197
+- 59
+- 157
+- 51
+- 52
+- 250
+- 100
+- 190
+- 62
+- 105
+- 138
+- 39
+- 19
+- 56
+- 81
+- 229
+- 99
+- 122
+- 250
+- 89
+- 185
+- 234
+- 219
+- 219
+- 20
+- 103
+- 128
+- 206
+- 149
+- 154
+- 61
+- 62
+- 61
+- 189
+- 159
+- 248
+- 158
+- 141
+- 52
+- 18
+- 168
+- 159
+- 61
+- 124
+- 150
+- 191
+- 243
+- 209
+- 222
+- 225
+- 140
+- 155
+- 74
+- 231
+- 250
+- 105
+- 205
+- 211
+- 227
+- 219
+- 122
+- 151
+- 117
+- 159
+- 166
+- 147
+- 56
+- 61
+- 122
+- 187
+- 225
+- 233
+- 92
+- 35
+- 129
+- 250
+- 225
+- 192
+- 239
+- 126
+- 142
+- 215
+- 188
+- 47
+- 92
+- 197
+- 54
+- 22
+- 215
+- 117
+- 17
+- 167
+- 79
+- 175
+- 173
+- 197
+- 1
+- 130
+- 153
+- 192
+- 114
+- 37
+- 161
+- 239
+- 157
+- 109
+- 89
+- 43
+- 19
+- 126
+- 44
+- 158
+- 88
+- 55
+- 31
+- 78
+- 239
+- 32
+- 78
+- 175
+- 130
+- 251
+- 39
+- 39
+- 15
+- 142
+- 218
+- 188
+- 51
+- 122
+- 117
+- 242
+- 236
+- 113
+- 171
+- 119
+- 182
+- 21
+- 253
+- 224
+- 11
+- 222
+- 125
+- 28
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 56
+- 254
+- 7
+- 0
+- 239
+- 85
+- 193
+- 163
+- 172
+- 193
+- 67
+- 0
+- 0
+- 0
+- 0
+- 73
+- 69
+- 78
+- 68
+- 174
+- 66
+- 96
+- 130
+gsplash/vga.png-b64: iVBORw0KGgoAAAANSUhEUgAAAoAAAAHgBAMAAADH/8HXAAAAG1BMVEXMzMwAAACZmZlmZmZMTEwzMzN/f3+ysrIZGRknYHu9AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAIHUlEQVR4nO3bz3PTRhTAcaPIFkcWHPAxTjvQI2Yo5YhKaDnWLbRXDCVwJAMZfIyAwr9drX6+/SFbNhqNMvP9HCCOHD35+Wm1u1qNRgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDQBPefP3/24J27IfrovvHxm++K9dEME7168vzZ4zueA/rOOH16rTKz35wtS2W8/JBkb/zsSXVbY3VNvnyf71H9beyygzh9+kmVLqwtB8pI4IfyfV/3D7YwEljtUd3oOE6PQl17x8enTxIngXMjgUFaF3+9PH61VOqffYMFSiZwovQe72S7/NRpnB5FiZoeZT8FDy+cTTKBczV7kf06VrN9T661kcBYHb7IIz1U6qjLOD1aq9lR+bN1uGMlE5gWz+/5T5Fbq20tZQLTFuJF+fNCXe8yTo8S9ahp00rFIoHrup06V9P9gk3UVCRwLs7biZp1GKdHYfMxRurGSiQwrjOdlsbRXtHO1AORwKXcy6Ksxi7i9GjeXIBX1R8igVFVIiOdiIu9oiWHkzqBkfHdpdG6i9OjZNa4KVbvRALDqpEa6dbr5j7BQnVLJHAi95i+utVZnB6ZH8LadHMkEnhmlOqGvG+wUi9EAkOjSxgVR9JFnB6VJ47HOv0kIoELozlaqD06GFEyHRkJvJBbi2LrIE6f5s2t9HI2kgk0a+FM3d092DjNmJFA48srEthBnD7Fh01bDvQpVScwMgZbWS52potrQwVe7ypOn5ob6bn+7usEWo3lQdHkV6xCOfbsMdC5MS4i14ytt9rEGZig+fgSXZt1As0WP/1DM/OhWcmBr2XI2lujGyP3cZDX2pY4QxM2XkNC9W0kE2hfbcwzLX2jsXnuO/NiPbKVZZfIrK/z1m5LnKEZN7bRq6yG6gResd6ZmCUXKvk6UJ4KzE9OmcBVPRTOep0t4gzNlewjZLPC94wNxSihTuCZ/LAjXU7mnmJZOXNf7zLv4MkEjsXbyi7ztjgDc6a/9mJW+PBIbCiufnUC7f7OwpyrNkrQW4BZt8hMYCRmY8oR8LY4A6MTVM3/Hoo+a9GBrRO4snq0Tg9XlKC3AA/Kq6y4SMyr0XA177I1zrAsZnpW+PDenY+3nypxwSsvfnUC7UqwP6goQX8BzvNqMxIYJOpz9kP6Jd5tGWdY0n50rG7kh/hW1e33uiin5gS6Q5iqBL0FGBVXA7PzFyo1fTMKHir1Z+s4gxJPD9S0/IoXdZchLubS6wTajbn7wcoS9Bdg3i2yE5i1H/+pOn8t4gzKciq6EpPqk1fDgV0SWJagtwCLbpGTwNH7rPmtZ6YvWQKTQ9nTX5Xd32oI35xAu7sxKkvQX4DVENdKYPC0uC+8Q5whSZTst4blp1yW14OdEpiXoL8Ax2UDaSZwkh7Al5c/6/vC79rHGZBEGcdbTCXVI/jdEqhL0F+AdW/Evgof6gUcug6/to8zIIlZLsWNnXl10Du1gVkJ+guwnhMwEhhXV7DXquhIX7Y20Bz056MtPXFc2DGBoZr5C3BdzdPLBJ6Lvvvb4hp+6RJoDN3zAZyYxNylH6jFyn+PZVmlRSZwKU7PaJnn+JL1A637rnnjt6p/ucNIJDNW3iZLzJKKBJq33Mb5q0s2EknMw8s+qJxU32EsnJkr7wSjuLMhEmje74jyK9glGwtb6/8CnUA5pdk8GxP7ZkkCPSXh+b2Y1BMJtJq7VZbPVnGGw0ngzXoYpzXPBy5983TpJTj2lGA5jNNEAq3J5vyLaxVnOGLzBNEJNO7qyBnpR8ZfJp4lNboPGHpKUDSqIoH2/Zj8bkibOAOysBN4PS2ELyeVpdL//joSQ4mC715F1gf0lGAyq/f4RE31f0fVXaRKvrajTZwBsVocXX1XlENfHp27ZW53JR+EeErQ3aM+Tw+sVOW7bBFnSKwb/7ob05DAFvdri0GIW4L+BNp3BKO2cYbEuomo1wpMToVY6X/1cNVaMeBZU1OOgt0SlHv8V93U/71zFiYUxbY9zqCE5hfsHK5YG7PctmalGgX7LsSV+iLitoHXW8UZlMD8vuf24Tauzoqd/m09DeO7EFfqBE68V+GtcQbGXAvlHK6xPlDUVeTmSEzDbCrBOoGRtx+4Nc7ALGS/1T3cphWqobNkRc4DbipB0ZFe+kYi2+IMzZk8j8ZOn6FpjbS79sWYB9xQgiKBK6PPHKm8/LfEGZoDWSwLZ8G5XKW/2LR63pyI3lCCIoFXrdmYGy3iDM+yfpwqVM64Uybwar2ofu08G2FNRDeXoEhgoMz5wIsWcYanflAp/Qjf7K0ygVH16FqQOPlZm6USNj48Ya7OkjPS5RzGxjjDk54l+aqiIBbPfJVkAvVk3y/FO50zNPpkvj5piicTOFHlY3r6Wbnq29sUZ4DOlZo9Pj29n/iejTQSqJ89fJa/89He4YybSuf6ac3T49t6l3WfppM4PXq74elcI4H64cDvfo7XvC9cxTYW13URp0+vrcUBgpnAciWh751tWSsTfiyeWDcfTu8gTq+C+ycnD47avDN6dfLscat3thX94AvefRwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4/gcA71XBo6zBQwAAAABJRU5ErkJggg==
+hello_reverse: dlroW
+hypertext: "<!DOCTYPE html>\n<html>\n<body>\n\n<h1>My First Heading</h1>\n\n<p>My\
+  \ first paragraph.</p>\n\n\u20AC\n\n</body>\n</html>\n"
+just_node:
+  a: 1234
+  b: Hello
+main:
+  countries:
+  - code: AF
+    name: Afghanistan
+  - code: AX
+    name: land Islands
+  - code: AL
+    name: Albania
+  - code: DZ
+    name: Algeria
+  - code: AS
+    name: American Samoa
+  - code: AD
+    name: AndorrA
+  - code: AO
+    name: Angola
+  - code: AI
+    name: Anguilla
+  - code: AQ
+    name: Antarctica
+  - code: AG
+    name: Antigua and Barbuda
+  - code: AR
+    name: Argentina
+  - code: AM
+    name: Armenia
+  - code: AW
+    name: Aruba
+  - code: AU
+    name: Australia
+  - code: AT
+    name: Austria
+  - code: AZ
+    name: Azerbaijan
+  - code: BS
+    name: Bahamas
+  - code: BH
+    name: Bahrain
+  - code: BD
+    name: Bangladesh
+  - code: BB
+    name: Barbados
+  - code: BY
+    name: Belarus
+  - code: BE
+    name: Belgium
+  - code: BZ
+    name: Belize
+  - code: BJ
+    name: Benin
+  - code: BM
+    name: Bermuda
+  - code: BT
+    name: Bhutan
+  - code: BO
+    name: Bolivia
+  - code: BA
+    name: Bosnia and Herzegovina
+  - code: BW
+    name: Botswana
+  - code: BV
+    name: Bouvet Island
+  - code: BR
+    name: Brazil
+  - code: IO
+    name: British Indian Ocean Territory
+  - code: BN
+    name: Brunei Darussalam
+  - code: BG
+    name: Bulgaria
+  - code: BF
+    name: Burkina Faso
+  - code: BI
+    name: Burundi
+  - code: KH
+    name: Cambodia
+  - code: CM
+    name: Cameroon
+  - code: CA
+    name: Canada
+  - code: CV
+    name: Cape Verde
+  - code: KY
+    name: Cayman Islands
+  - code: CF
+    name: Central African Republic
+  - code: TD
+    name: Chad
+  - code: CL
+    name: Chile
+  - code: CN
+    name: China
+  - code: CX
+    name: Christmas Island
+  - code: CC
+    name: Cocos (Keeling) Islands
+  - code: CO
+    name: Colombia
+  - code: KM
+    name: Comoros
+  - code: CG
+    name: Congo
+  - code: CD
+    name: Congo, The Democratic Republic of the
+  - code: CK
+    name: Cook Islands
+  - code: CR
+    name: Costa Rica
+  - code: CI
+    name: Cote D"Ivoire
+  - code: HR
+    name: Croatia
+  - code: CU
+    name: Cuba
+  - code: CY
+    name: Cyprus
+  - code: CZ
+    name: Czech Republic
+  - code: DK
+    name: Denmark
+  - code: DJ
+    name: Djibouti
+  - code: DM
+    name: Dominica
+  - code: DO
+    name: Dominican Republic
+  - code: EC
+    name: Ecuador
+  - code: EG
+    name: Egypt
+  - code: SV
+    name: El Salvador
+  - code: GQ
+    name: Equatorial Guinea
+  - code: ER
+    name: Eritrea
+  - code: EE
+    name: Estonia
+  - code: ET
+    name: Ethiopia
+  - code: FK
+    name: Falkland Islands (Malvinas)
+  - code: FO
+    name: Faroe Islands
+  - code: FJ
+    name: Fiji
+  - code: FI
+    name: Finland
+  - code: FR
+    name: France
+  - code: GF
+    name: French Guiana
+  - code: PF
+    name: French Polynesia
+  - code: TF
+    name: French Southern Territories
+  - code: GA
+    name: Gabon
+  - code: GM
+    name: Gambia
+  - code: GE
+    name: Georgia
+  - code: DE
+    name: Germany
+  - code: GH
+    name: Ghana
+  - code: GI
+    name: Gibraltar
+  - code: GR
+    name: Greece
+  - code: GL
+    name: Greenland
+  - code: GD
+    name: Grenada
+  - code: GP
+    name: Guadeloupe
+  - code: GU
+    name: Guam
+  - code: GT
+    name: Guatemala
+  - code: GG
+    name: Guernsey
+  - code: GN
+    name: Guinea
+  - code: GW
+    name: Guinea-Bissau
+  - code: GY
+    name: Guyana
+  - code: HT
+    name: Haiti
+  - code: HM
+    name: Heard Island and Mcdonald Islands
+  - code: VA
+    name: Holy See (Vatican City State)
+  - code: HN
+    name: Honduras
+  - code: HK
+    name: Hong Kong
+  - code: HU
+    name: Hungary
+  - code: IS
+    name: Iceland
+  - code: IN
+    name: India
+  - code: ID
+    name: Indonesia
+  - code: IR
+    name: Iran, Islamic Republic Of
+  - code: IQ
+    name: Iraq
+  - code: IE
+    name: Ireland
+  - code: IM
+    name: Isle of Man
+  - code: IL
+    name: Israel
+  - code: IT
+    name: Italy
+  - code: JM
+    name: Jamaica
+  - code: JP
+    name: Japan
+  - code: JE
+    name: Jersey
+  - code: JO
+    name: Jordan
+  - code: KZ
+    name: Kazakhstan
+  - code: KE
+    name: Kenya
+  - code: KI
+    name: Kiribati
+  - code: KP
+    name: Korea, Democratic People"S Republic of
+  - code: KR
+    name: Korea, Republic of
+  - code: KW
+    name: Kuwait
+  - code: KG
+    name: Kyrgyzstan
+  - code: LA
+    name: Lao People"S Democratic Republic
+  - code: LV
+    name: Latvia
+  - code: LB
+    name: Lebanon
+  - code: LS
+    name: Lesotho
+  - code: LR
+    name: Liberia
+  - code: LY
+    name: Libyan Arab Jamahiriya
+  - code: LI
+    name: Liechtenstein
+  - code: LT
+    name: Lithuania
+  - code: LU
+    name: Luxembourg
+  - code: MO
+    name: Macao
+  - code: MK
+    name: Macedonia, The Former Yugoslav Republic of
+  - code: MG
+    name: Madagascar
+  - code: MW
+    name: Malawi
+  - code: MY
+    name: Malaysia
+  - code: MV
+    name: Maldives
+  - code: ML
+    name: Mali
+  - code: MT
+    name: Malta
+  - code: MH
+    name: Marshall Islands
+  - code: MQ
+    name: Martinique
+  - code: MR
+    name: Mauritania
+  - code: MU
+    name: Mauritius
+  - code: YT
+    name: Mayotte
+  - code: MX
+    name: Mexico
+  - code: FM
+    name: Micronesia, Federated States of
+  - code: MD
+    name: Moldova, Republic of
+  - code: MC
+    name: Monaco
+  - code: MN
+    name: Mongolia
+  - code: ME
+    name: Montenegro
+  - code: MS
+    name: Montserrat
+  - code: MA
+    name: Morocco
+  - code: MZ
+    name: Mozambique
+  - code: MM
+    name: Myanmar
+  - code: NA
+    name: Namibia
+  - code: NR
+    name: Nauru
+  - code: NP
+    name: Nepal
+  - code: NL
+    name: Netherlands
+  - code: AN
+    name: Netherlands Antilles
+  - code: NC
+    name: New Caledonia
+  - code: NZ
+    name: New Zealand
+  - code: NI
+    name: Nicaragua
+  - code: NE
+    name: Niger
+  - code: NG
+    name: Nigeria
+  - code: NU
+    name: Niue
+  - code: NF
+    name: Norfolk Island
+  - code: MP
+    name: Northern Mariana Islands
+  - code: 'NO'
+    name: Norway
+  - code: OM
+    name: Oman
+  - code: PK
+    name: Pakistan
+  - code: PW
+    name: Palau
+  - code: PS
+    name: Palestinian Territory, Occupied
+  - code: PA
+    name: Panama
+  - code: PG
+    name: Papua New Guinea
+  - code: PY
+    name: Paraguay
+  - code: PE
+    name: Peru
+  - code: PH
+    name: Philippines
+  - code: PN
+    name: Pitcairn
+  - code: PL
+    name: Poland
+  - code: PT
+    name: Portugal
+  - code: PR
+    name: Puerto Rico
+  - code: QA
+    name: Qatar
+  - code: RE
+    name: Reunion
+  - code: RO
+    name: Romania
+  - code: RU
+    name: Russian Federation
+  - code: RW
+    name: RWANDA
+  - code: SH
+    name: Saint Helena
+  - code: KN
+    name: Saint Kitts and Nevis
+  - code: LC
+    name: Saint Lucia
+  - code: PM
+    name: Saint Pierre and Miquelon
+  - code: VC
+    name: Saint Vincent and the Grenadines
+  - code: WS
+    name: Samoa
+  - code: SM
+    name: San Marino
+  - code: ST
+    name: Sao Tome and Principe
+  - code: SA
+    name: Saudi Arabia
+  - code: SN
+    name: Senegal
+  - code: RS
+    name: Serbia
+  - code: SC
+    name: Seychelles
+  - code: SL
+    name: Sierra Leone
+  - code: SG
+    name: Singapore
+  - code: SK
+    name: Slovakia
+  - code: SI
+    name: Slovenia
+  - code: SB
+    name: Solomon Islands
+  - code: SO
+    name: Somalia
+  - code: ZA
+    name: South Africa
+  - code: GS
+    name: South Georgia and the South Sandwich Islands
+  - code: ES
+    name: Spain
+  - code: LK
+    name: Sri Lanka
+  - code: SD
+    name: Sudan
+  - code: SR
+    name: Suriname
+  - code: SJ
+    name: Svalbard and Jan Mayen
+  - code: SZ
+    name: Swaziland
+  - code: SE
+    name: Sweden
+  - code: CH
+    name: Switzerland
+  - code: SY
+    name: Syrian Arab Republic
+  - code: TW
+    name: Taiwan, Province of China
+  - code: TJ
+    name: Tajikistan
+  - code: TZ
+    name: Tanzania, United Republic of
+  - code: TH
+    name: Thailand
+  - code: TL
+    name: Timor-Leste
+  - code: TG
+    name: Togo
+  - code: TK
+    name: Tokelau
+  - code: TO
+    name: Tonga
+  - code: TT
+    name: Trinidad and Tobago
+  - code: TN
+    name: Tunisia
+  - code: TR
+    name: Turkey
+  - code: TM
+    name: Turkmenistan
+  - code: TC
+    name: Turks and Caicos Islands
+  - code: TV
+    name: Tuvalu
+  - code: UG
+    name: Uganda
+  - code: UA
+    name: Ukraine
+  - code: AE
+    name: United Arab Emirates
+  - code: GB
+    name: United Kingdom
+  - code: US
+    name: United States
+  - code: UM
+    name: United States Minor Outlying Islands
+  - code: UY
+    name: Uruguay
+  - code: UZ
+    name: Uzbekistan
+  - code: VU
+    name: Vanuatu
+  - code: VE
+    name: Venezuela
+  - code: VN
+    name: Viet Nam
+  - code: VG
+    name: Virgin Islands, British
+  - code: VI
+    name: Virgin Islands, U.S.
+  - code: WF
+    name: Wallis and Futuna
+  - code: EH
+    name: Western Sahara
+  - code: YE
+    name: Yemen
+  - code: ZM
+    name: Zambia
+  - code: ZW
+    name: Zimbabwe
+  currencies:
+    AED:
+      format: -###,###,###.## Dhs
+      iso:
+        code: AED
+        num: '784'
+      name: Emirati Dirham
+      symbol:
+        default:
+          code: Dhs
+          display: Dhs
+        native:
+          code: '&#x62f;.&#x625;'
+          display: "\u062F.\u0625"
+      units:
+        decimal: 2
+        name:
+          major: Dirham
+          minor: Fil
+        sub: 100
+    AFN:
+      format: -###,###,###.##
+      iso:
+        code: AFN
+        num: '971'
+      name: Afghan Afghani
+      symbol:
+        default:
+          code: '&#x60b;'
+          display: "\u060B"
+        native: null
+      units:
+        decimal: 2
+        name:
+          major: Afghani
+          minor: Pul
+        sub: 100
+    ALL:
+      format: L -###,###,###.##
+      iso:
+        code: ALL
+        num: 008
+      name: Albanian Lek
+      symbol:
+        default:
+          code: L
+          display: L
+        native: null
+      units:
+        decimal: 2
+        name:
+          major: Lek
+          minor: Qindarka
+        sub: 100
+    AMD:
+      format: AMD -###,###,###.##
+      iso:
+        code: AMD
+        num: '051'
+      name: Armenian Dram
+      symbol:
+        default:
+          code: '&#x58f;'
+          display: AMD
+        native: null
+      units:
+        decimal: 2
+        name:
+          major: Dram
+          minor: Luma
+        sub: 100
+    ANG:
+      format: "NA\u0192 -###,###,###.##"
+      iso:
+        code: ANG
+        num: '532'
+      name: Netherlands Antillean Guilder
+      symbol:
+        default:
+          code: NA&#x192;
+          display: "NA\u0192"
+        native: null
+      units:
+        decimal: 2
+        name:
+          major: Guilder
+          minor: Cent
+        sub: 100
+    AOA:
+      format: -###,###,###.## Kz
+      iso:
+        code: AOA
+        num: '973'
+      name: Angolan Kwanza
+      symbol:
+        default:
+          code: Kz
+          display: Kz
+        native: null
+      units:
+        decimal: 2
+        name:
+          major: Kwanza
+          minor: "C\xEAntimos"
+        sub: 100
+    ARS:
+      format: AR$-###.###.###,##
+      iso:
+        code: ARS
+        num: '032'
+      name: Argentine Peso
+      symbol:
+        default:
+          code: AR&#x24;
+          display: AR$
+        native:
+          code: '&#x24;'
+          display: $
+      units:
+        decimal: 2
+        name:
+          major: Peso
+          minor: Centavo
+        sub: 100
+    AUD:
+      format: -AU$###,###,###.##
+      iso:
+        code: AUD
+        num: '036'
+      name: Australian Dollar
+      symbol:
+        default:
+          code: AU&#x24;
+          display: AU$
+        native:
+          code: '&#x24;'
+          display: $
+      units:
+        decimal: 2
+        name:
+          major: Dollar
+          minor: Cent
+        sub: 100
+    AWG:
+      format: Afl. -###,###,###.##
+      iso:
+        code: AWG
+        num: '533'
+      name: Aruban Florin
+      symbol:
+        default:
+          code: Afl.
+          display: Afl.
+        native: null
+      units:
+        decimal: 2
+        name:
+          major: Florin
+          minor: Cent
+        sub: 100
+    AZN:
+      format: man. -$###.###.###,##
+      iso:
+        code: BRL
+        num: '944'
+      name: Azerbaijani Manat
+      symbol:
+        default:
+          code: man.
+          display: man.
+        native: null
+      units:
+        decimal: 2
+        name:
+          major: Manat
+          minor: "Q\u0259pik"
+        sub: 100
+    CAD:
+      format: -CA$###,###,###.##
+      iso:
+        code: CAD
+        num: '124'
+      name: Canadian Dollar
+      symbol:
+        default:
+          code: CA&#x24;
+          display: CA$
+        native:
+          code: '&#x24;'
+          display: $
+      units:
+        decimal: 2
+        name:
+          major: Dollar
+          minor: Cent
+        sub: 100
+    DKK:
+      format: kr -###.###.###,##
+      iso:
+        code: DKK
+        num: '208'
+      name: Danish Krone
+      symbol:
+        default:
+          code: kr
+          display: kr
+        native: null
+      units:
+        decimal: 2
+        name:
+          major: Krone
+          minor: "\xD8re"
+        sub: 100
+    EUR:
+      format: "-\u20AC###.###.###,##"
+      iso:
+        code: EUR
+        num: '978'
+      name: Euro
+      symbol:
+        default:
+          code: '&#x20ac;'
+          display: "\u20AC"
+        native: null
+      units:
+        decimal: 2
+        name:
+          major: Euro
+          minor: Cent
+        sub: 100
+    GBP:
+      format: "-\xA3###,###,###.##"
+      iso:
+        code: GBP
+        num: '826'
+      name: Pound Sterling
+      symbol:
+        default:
+          code: '&#xa3;'
+          display: "\xA3"
+        native: null
+      units:
+        decimal: 2
+        name:
+          major: Pound
+          minor: Pence
+        sub: 100
+    JPY:
+      format: "-###,###,###\u5186"
+      iso:
+        code: JPY
+        num: '392'
+      name: Japanese Yen
+      symbol:
+        default:
+          code: '&#xa5;'
+          display: "\xA5"
+        native:
+          code: '&#x5186;'
+          display: "\u5186"
+      units:
+        decimal: 0
+        name:
+          major: Yen
+          minor: null
+        sub: 0
+    USD:
+      format: -$###,###,###.##
+      iso:
+        code: USD
+        num: '840'
+      name: US Dollar
+      symbol:
+        default:
+          code: '&#x24;'
+          display: $
+        native: null
+      units:
+        decimal: 2
+        name:
+          major: Dollar
+          minor: Cent
+        sub: 100
+  languages:
+  - code: ab
+    name: Abkhaz
+    nativeName: "\u0430\u04A7\u0441\u0443\u0430"
+  - code: aa
+    name: Afar
+    nativeName: Afaraf
+  - code: af
+    name: Afrikaans
+    nativeName: Afrikaans
+  - code: ak
+    name: Akan
+    nativeName: Akan
+  - code: sq
+    name: Albanian
+    nativeName: Shqip
+  - code: am
+    name: Amharic
+    nativeName: "\u12A0\u121B\u122D\u129B"
+  - code: ar
+    name: Arabic
+    nativeName: "\u0627\u0644\u0639\u0631\u0628\u064A\u0629"
+  - code: an
+    name: Aragonese
+    nativeName: "Aragon\xE9s"
+  - code: hy
+    name: Armenian
+    nativeName: "\u0540\u0561\u0575\u0565\u0580\u0565\u0576"
+  - code: as
+    name: Assamese
+    nativeName: "\u0985\u09B8\u09AE\u09C0\u09AF\u09BC\u09BE"
+  - code: av
+    name: Avaric
+    nativeName: "\u0430\u0432\u0430\u0440 \u043C\u0430\u0446\u04C0, \u043C\u0430\u0433\
+      \u04C0\u0430\u0440\u0443\u043B \u043C\u0430\u0446\u04C0"
+  - code: ae
+    name: Avestan
+    nativeName: avesta
+  - code: ay
+    name: Aymara
+    nativeName: aymar aru
+  - code: az
+    name: Azerbaijani
+    nativeName: "az\u0259rbaycan dili"
+  - code: bm
+    name: Bambara
+    nativeName: bamanankan
+  - code: ba
+    name: Bashkir
+    nativeName: "\u0431\u0430\u0448\u04A1\u043E\u0440\u0442 \u0442\u0435\u043B\u0435"
+  - code: eu
+    name: Basque
+    nativeName: euskara, euskera
+  - code: be
+    name: Belarusian
+    nativeName: "\u0411\u0435\u043B\u0430\u0440\u0443\u0441\u043A\u0430\u044F"
+  - code: bn
+    name: Bengali
+    nativeName: "\u09AC\u09BE\u0982\u09B2\u09BE"
+  - code: bh
+    name: Bihari
+    nativeName: "\u092D\u094B\u091C\u092A\u0941\u0930\u0940"
+  - code: bi
+    name: Bislama
+    nativeName: Bislama
+  - code: bs
+    name: Bosnian
+    nativeName: bosanski jezik
+  - code: br
+    name: Breton
+    nativeName: brezhoneg
+  - code: bg
+    name: Bulgarian
+    nativeName: "\u0431\u044A\u043B\u0433\u0430\u0440\u0441\u043A\u0438 \u0435\u0437\
+      \u0438\u043A"
+  - code: my
+    name: Burmese
+    nativeName: "\u1017\u1019\u102C\u1005\u102C"
+  - code: ca
+    name: Catalan; Valencian
+    nativeName: "Catal\xE0"
+  - code: ch
+    name: Chamorro
+    nativeName: Chamoru
+  - code: ce
+    name: Chechen
+    nativeName: "\u043D\u043E\u0445\u0447\u0438\u0439\u043D \u043C\u043E\u0442\u0442"
+  - code: ny
+    name: Chichewa; Chewa; Nyanja
+    nativeName: "chiChe\u0175a, chinyanja"
+  - code: zh
+    name: Chinese
+    nativeName: "\u4E2D\u6587 (Zh\u014Dngw\xE9n), \u6C49\u8BED, \u6F22\u8A9E"
+  - code: cv
+    name: Chuvash
+    nativeName: "\u0447\u04D1\u0432\u0430\u0448 \u0447\u04D7\u043B\u0445\u0438"
+  - code: kw
+    name: Cornish
+    nativeName: Kernewek
+  - code: co
+    name: Corsican
+    nativeName: corsu, lingua corsa
+  - code: cr
+    name: Cree
+    nativeName: "\u14C0\u1426\u1403\u152D\u140D\u140F\u1423"
+  - code: hr
+    name: Croatian
+    nativeName: hrvatski
+  - code: cs
+    name: Czech
+    nativeName: "\u010Desky, \u010De\u0161tina"
+  - code: da
+    name: Danish
+    nativeName: dansk
+  - code: dv
+    name: Divehi; Dhivehi; Maldivian;
+    nativeName: "\u078B\u07A8\u0788\u07AC\u0780\u07A8"
+  - code: nl
+    name: Dutch
+    nativeName: Nederlands, Vlaams
+  - code: en
+    name: English
+    nativeName: English
+  - code: eo
+    name: Esperanto
+    nativeName: Esperanto
+  - code: et
+    name: Estonian
+    nativeName: eesti, eesti keel
+  - code: ee
+    name: Ewe
+    nativeName: "E\u028Begbe"
+  - code: fo
+    name: Faroese
+    nativeName: "f\xF8royskt"
+  - code: fj
+    name: Fijian
+    nativeName: vosa Vakaviti
+  - code: fi
+    name: Finnish
+    nativeName: suomi, suomen kieli
+  - code: fr
+    name: French
+    nativeName: "fran\xE7ais, langue fran\xE7aise"
+  - code: ff
+    name: Fula; Fulah; Pulaar; Pular
+    nativeName: Fulfulde, Pulaar, Pular
+  - code: gl
+    name: Galician
+    nativeName: Galego
+  - code: ka
+    name: Georgian
+    nativeName: "\u10E5\u10D0\u10E0\u10D7\u10E3\u10DA\u10D8"
+  - code: de
+    name: German
+    nativeName: Deutsch
+  - code: el
+    name: Greek, Modern
+    nativeName: "\u0395\u03BB\u03BB\u03B7\u03BD\u03B9\u03BA\u03AC"
+  - code: gn
+    name: "Guaran\xED"
+    nativeName: "Ava\xF1e\u1EBD"
+  - code: gu
+    name: Gujarati
+    nativeName: "\u0A97\u0AC1\u0A9C\u0AB0\u0ABE\u0AA4\u0AC0"
+  - code: ht
+    name: Haitian; Haitian Creole
+    nativeName: "Krey\xF2l ayisyen"
+  - code: ha
+    name: Hausa
+    nativeName: "Hausa, \u0647\u064E\u0648\u064F\u0633\u064E"
+  - code: he
+    name: Hebrew (modern)
+    nativeName: "\u05E2\u05D1\u05E8\u05D9\u05EA"
+  - code: hz
+    name: Herero
+    nativeName: Otjiherero
+  - code: hi
+    name: Hindi
+    nativeName: "\u0939\u093F\u0928\u094D\u0926\u0940, \u0939\u093F\u0902\u0926\u0940"
+  - code: ho
+    name: Hiri Motu
+    nativeName: Hiri Motu
+  - code: hu
+    name: Hungarian
+    nativeName: Magyar
+  - code: ia
+    name: Interlingua
+    nativeName: Interlingua
+  - code: id
+    name: Indonesian
+    nativeName: Bahasa Indonesia
+  - code: ie
+    name: Interlingue
+    nativeName: Originally called Occidental; then Interlingue after WWII
+  - code: ga
+    name: Irish
+    nativeName: Gaeilge
+  - code: ig
+    name: Igbo
+    nativeName: "As\u1EE5s\u1EE5 Igbo"
+  - code: ik
+    name: Inupiaq
+    nativeName: "I\xF1upiaq, I\xF1upiatun"
+  - code: io
+    name: Ido
+    nativeName: Ido
+  - code: is
+    name: Icelandic
+    nativeName: "\xCDslenska"
+  - code: it
+    name: Italian
+    nativeName: Italiano
+  - code: iu
+    name: Inuktitut
+    nativeName: "\u1403\u14C4\u1483\u144E\u1450\u1466"
+  - code: ja
+    name: Japanese
+    nativeName: "\u65E5\u672C\u8A9E (\u306B\u307B\u3093\u3054\uFF0F\u306B\u3063\u307D\
+      \u3093\u3054)"
+  - code: jv
+    name: Javanese
+    nativeName: basa Jawa
+  - code: kl
+    name: Kalaallisut, Greenlandic
+    nativeName: kalaallisut, kalaallit oqaasii
+  - code: kn
+    name: Kannada
+    nativeName: "\u0C95\u0CA8\u0CCD\u0CA8\u0CA1"
+  - code: kr
+    name: Kanuri
+    nativeName: Kanuri
+  - code: ks
+    name: Kashmiri
+    nativeName: "\u0915\u0936\u094D\u092E\u0940\u0930\u0940, \u0643\u0634\u0645\u064A\
+      \u0631\u064A\u200E"
+  - code: kk
+    name: Kazakh
+    nativeName: "\u049A\u0430\u0437\u0430\u049B \u0442\u0456\u043B\u0456"
+  - code: km
+    name: Khmer
+    nativeName: "\u1797\u17B6\u179F\u17B6\u1781\u17D2\u1798\u17C2\u179A"
+  - code: ki
+    name: Kikuyu, Gikuyu
+    nativeName: "G\u0129k\u0169y\u0169"
+  - code: rw
+    name: Kinyarwanda
+    nativeName: Ikinyarwanda
+  - code: ky
+    name: Kirghiz, Kyrgyz
+    nativeName: "\u043A\u044B\u0440\u0433\u044B\u0437 \u0442\u0438\u043B\u0438"
+  - code: kv
+    name: Komi
+    nativeName: "\u043A\u043E\u043C\u0438 \u043A\u044B\u0432"
+  - code: kg
+    name: Kongo
+    nativeName: KiKongo
+  - code: ko
+    name: Korean
+    nativeName: "\uD55C\uAD6D\uC5B4 (\u97D3\u570B\u8A9E), \uC870\uC120\uB9D0 (\u671D\
+      \u9BAE\u8A9E)"
+  - code: ku
+    name: Kurdish
+    nativeName: "Kurd\xEE, \u0643\u0648\u0631\u062F\u06CC\u200E"
+  - code: kj
+    name: Kwanyama, Kuanyama
+    nativeName: Kuanyama
+  - code: la
+    name: Latin
+    nativeName: latine, lingua latina
+  - code: lb
+    name: Luxembourgish, Letzeburgesch
+    nativeName: "L\xEBtzebuergesch"
+  - code: lg
+    name: Luganda
+    nativeName: Luganda
+  - code: li
+    name: Limburgish, Limburgan, Limburger
+    nativeName: Limburgs
+  - code: ln
+    name: Lingala
+    nativeName: "Ling\xE1la"
+  - code: lo
+    name: Lao
+    nativeName: "\u0E9E\u0EB2\u0EAA\u0EB2\u0EA5\u0EB2\u0EA7"
+  - code: lt
+    name: Lithuanian
+    nativeName: "lietuvi\u0173 kalba"
+  - code: lu
+    name: Luba-Katanga
+    nativeName: ''
+  - code: lv
+    name: Latvian
+    nativeName: "latvie\u0161u valoda"
+  - code: gv
+    name: Manx
+    nativeName: Gaelg, Gailck
+  - code: mk
+    name: Macedonian
+    nativeName: "\u043C\u0430\u043A\u0435\u0434\u043E\u043D\u0441\u043A\u0438 \u0458\
+      \u0430\u0437\u0438\u043A"
+  - code: mg
+    name: Malagasy
+    nativeName: Malagasy fiteny
+  - code: ms
+    name: Malay
+    nativeName: "bahasa Melayu, \u0628\u0647\u0627\u0633 \u0645\u0644\u0627\u064A\u0648\
+      \u200E"
+  - code: ml
+    name: Malayalam
+    nativeName: "\u0D2E\u0D32\u0D2F\u0D3E\u0D33\u0D02"
+  - code: mt
+    name: Maltese
+    nativeName: Malti
+  - code: mi
+    name: "M\u0101ori"
+    nativeName: "te reo M\u0101ori"
+  - code: mr
+    name: "Marathi (Mar\u0101\u1E6Dh\u012B)"
+    nativeName: "\u092E\u0930\u093E\u0920\u0940"
+  - code: mh
+    name: Marshallese
+    nativeName: "Kajin M\u0327aje\u013C"
+  - code: mn
+    name: Mongolian
+    nativeName: "\u043C\u043E\u043D\u0433\u043E\u043B"
+  - code: na
+    name: Nauru
+    nativeName: "Ekakair\u0169 Naoero"
+  - code: nv
+    name: Navajo, Navaho
+    nativeName: "Din\xE9 bizaad, Din\xE9k\u02BCeh\u01F0\xED"
+  - code: nb
+    name: "Norwegian Bokm\xE5l"
+    nativeName: "Norsk bokm\xE5l"
+  - code: nd
+    name: North Ndebele
+    nativeName: isiNdebele
+  - code: ne
+    name: Nepali
+    nativeName: "\u0928\u0947\u092A\u093E\u0932\u0940"
+  - code: ng
+    name: Ndonga
+    nativeName: Owambo
+  - code: nn
+    name: Norwegian Nynorsk
+    nativeName: Norsk nynorsk
+  - code: 'no'
+    name: Norwegian
+    nativeName: Norsk
+  - code: ii
+    name: Nuosu
+    nativeName: "\uA188\uA320\uA4BF Nuosuhxop"
+  - code: nr
+    name: South Ndebele
+    nativeName: isiNdebele
+  - code: oc
+    name: Occitan
+    nativeName: Occitan
+  - code: oj
+    name: Ojibwe, Ojibwa
+    nativeName: "\u140A\u14C2\u1511\u14C8\u142F\u14A7\u140E\u14D0"
+  - code: cu
+    name: Old Church Slavonic, Church Slavic, Church Slavonic, Old Bulgarian, Old
+      Slavonic
+    nativeName: "\u0469\u0437\u044B\u043A\u044A \u0441\u043B\u043E\u0432\u0463\u043D\
+      \u044C\u0441\u043A\u044A"
+  - code: om
+    name: Oromo
+    nativeName: Afaan Oromoo
+  - code: or
+    name: Oriya
+    nativeName: "\u0B13\u0B21\u0B3C\u0B3F\u0B06"
+  - code: os
+    name: Ossetian, Ossetic
+    nativeName: "\u0438\u0440\u043E\u043D \xE6\u0432\u0437\u0430\u0433"
+  - code: pa
+    name: Panjabi, Punjabi
+    nativeName: "\u0A2A\u0A70\u0A1C\u0A3E\u0A2C\u0A40, \u067E\u0646\u062C\u0627\u0628\
+      \u06CC\u200E"
+  - code: pi
+    name: "P\u0101li"
+    nativeName: "\u092A\u093E\u0934\u093F"
+  - code: fa
+    name: Persian
+    nativeName: "\u0641\u0627\u0631\u0633\u06CC"
+  - code: pl
+    name: Polish
+    nativeName: polski
+  - code: ps
+    name: Pashto, Pushto
+    nativeName: "\u067E\u069A\u062A\u0648"
+  - code: pt
+    name: Portuguese
+    nativeName: "Portugu\xEAs"
+  - code: qu
+    name: Quechua
+    nativeName: Runa Simi, Kichwa
+  - code: rm
+    name: Romansh
+    nativeName: rumantsch grischun
+  - code: rn
+    name: Kirundi
+    nativeName: kiRundi
+  - code: ro
+    name: Romanian, Moldavian, Moldovan
+    nativeName: "rom\xE2n\u0103"
+  - code: ru
+    name: Russian
+    nativeName: "\u0440\u0443\u0441\u0441\u043A\u0438\u0439 \u044F\u0437\u044B\u043A"
+  - code: sa
+    name: "Sanskrit (Sa\u1E41sk\u1E5Bta)"
+    nativeName: "\u0938\u0902\u0938\u094D\u0915\u0943\u0924\u092E\u094D"
+  - code: sc
+    name: Sardinian
+    nativeName: sardu
+  - code: sd
+    name: Sindhi
+    nativeName: "\u0938\u093F\u0928\u094D\u0927\u0940, \u0633\u0646\u068C\u064A\u060C\
+      \ \u0633\u0646\u062F\u06BE\u06CC\u200E"
+  - code: se
+    name: Northern Sami
+    nativeName: "Davvis\xE1megiella"
+  - code: sm
+    name: Samoan
+    nativeName: gagana faa Samoa
+  - code: sg
+    name: Sango
+    nativeName: "y\xE2ng\xE2 t\xEE s\xE4ng\xF6"
+  - code: sr
+    name: Serbian
+    nativeName: "\u0441\u0440\u043F\u0441\u043A\u0438 \u0458\u0435\u0437\u0438\u043A"
+  - code: gd
+    name: Scottish Gaelic; Gaelic
+    nativeName: "G\xE0idhlig"
+  - code: sn
+    name: Shona
+    nativeName: chiShona
+  - code: si
+    name: Sinhala, Sinhalese
+    nativeName: "\u0DC3\u0DD2\u0D82\u0DC4\u0DBD"
+  - code: sk
+    name: Slovak
+    nativeName: "sloven\u010Dina"
+  - code: sl
+    name: Slovene
+    nativeName: "sloven\u0161\u010Dina"
+  - code: so
+    name: Somali
+    nativeName: Soomaaliga, af Soomaali
+  - code: st
+    name: Southern Sotho
+    nativeName: Sesotho
+  - code: es
+    name: Spanish; Castilian
+    nativeName: "espa\xF1ol, castellano"
+  - code: su
+    name: Sundanese
+    nativeName: Basa Sunda
+  - code: sw
+    name: Swahili
+    nativeName: Kiswahili
+  - code: ss
+    name: Swati
+    nativeName: SiSwati
+  - code: sv
+    name: Swedish
+    nativeName: svenska
+  - code: ta
+    name: Tamil
+    nativeName: "\u0BA4\u0BAE\u0BBF\u0BB4\u0BCD"
+  - code: te
+    name: Telugu
+    nativeName: "\u0C24\u0C46\u0C32\u0C41\u0C17\u0C41"
+  - code: tg
+    name: Tajik
+    nativeName: "\u0442\u043E\u04B7\u0438\u043A\u04E3, to\u011Fik\u012B, \u062A\u0627\
+      \u062C\u06CC\u06A9\u06CC\u200E"
+  - code: th
+    name: Thai
+    nativeName: "\u0E44\u0E17\u0E22"
+  - code: ti
+    name: Tigrinya
+    nativeName: "\u1275\u130D\u122D\u129B"
+  - code: bo
+    name: Tibetan Standard, Tibetan, Central
+    nativeName: "\u0F56\u0F7C\u0F51\u0F0B\u0F61\u0F72\u0F42"
+  - code: tk
+    name: Turkmen
+    nativeName: "T\xFCrkmen, \u0422\u04AF\u0440\u043A\u043C\u0435\u043D"
+  - code: tl
+    name: Tagalog
+    nativeName: "Wikang Tagalog, \u170F\u1712\u1703\u1705\u1714 \u1706\u1704\u170E\
+      \u1713\u1704\u1714"
+  - code: tn
+    name: Tswana
+    nativeName: Setswana
+  - code: to
+    name: Tonga (Tonga Islands)
+    nativeName: faka Tonga
+  - code: tr
+    name: Turkish
+    nativeName: "T\xFCrk\xE7e"
+  - code: ts
+    name: Tsonga
+    nativeName: Xitsonga
+  - code: tt
+    name: Tatar
+    nativeName: "\u0442\u0430\u0442\u0430\u0440\u0447\u0430, tatar\xE7a, \u062A\u0627\
+      \u062A\u0627\u0631\u0686\u0627\u200E"
+  - code: tw
+    name: Twi
+    nativeName: Twi
+  - code: ty
+    name: Tahitian
+    nativeName: Reo Tahiti
+  - code: ug
+    name: Uighur, Uyghur
+    nativeName: "Uy\u01A3urq\u0259, \u0626\u06C7\u064A\u063A\u06C7\u0631\u0686\u06D5\
+      \u200E"
+  - code: uk
+    name: Ukrainian
+    nativeName: "\u0443\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430"
+  - code: ur
+    name: Urdu
+    nativeName: "\u0627\u0631\u062F\u0648"
+  - code: uz
+    name: Uzbek
+    nativeName: "zbek, \u040E\u0437\u0431\u0435\u043A, \u0623\u06C7\u0632\u0628\u06D0\
+      \u0643\u200E"
+  - code: ve
+    name: Venda
+    nativeName: "Tshiven\u1E13a"
+  - code: vi
+    name: Vietnamese
+    nativeName: "Ti\u1EBFng Vi\u1EC7t"
+  - code: vo
+    name: "Volap\xFCk"
+    nativeName: "Volap\xFCk"
+  - code: wa
+    name: Walloon
+    nativeName: Walon
+  - code: cy
+    name: Welsh
+    nativeName: Cymraeg
+  - code: wo
+    name: Wolof
+    nativeName: Wollof
+  - code: fy
+    name: Western Frisian
+    nativeName: Frysk
+  - code: xh
+    name: Xhosa
+    nativeName: isiXhosa
+  - code: yi
+    name: Yiddish
+    nativeName: "\u05D9\u05D9\u05B4\u05D3\u05D9\u05E9"
+  - code: yo
+    name: Yoruba
+    nativeName: "Yor\xF9b\xE1"
+  - code: za
+    name: Zhuang, Chuang
+    nativeName: "Sa\u026F cue\u014B\u0185, Saw cuengh"
+  timezones:
+  - abbr: DST
+    isdst: false
+    offset: -12
+    text: (UTC-12:00) International Date Line West
+    utc:
+    - Etc/GMT+12
+    value: Dateline Standard Time
+  - abbr: U
+    isdst: false
+    offset: -11
+    text: (UTC-11:00) Coordinated Universal Time-11
+    utc:
+    - Etc/GMT+11
+    - Pacific/Midway
+    - Pacific/Niue
+    - Pacific/Pago_Pago
+    value: UTC-11
+  - abbr: HST
+    isdst: false
+    offset: -10
+    text: (UTC-10:00) Hawaii
+    utc:
+    - Etc/GMT+10
+    - Pacific/Honolulu
+    - Pacific/Johnston
+    - Pacific/Rarotonga
+    - Pacific/Tahiti
+    value: Hawaiian Standard Time
+  - abbr: AKDT
+    isdst: true
+    offset: -8
+    text: (UTC-09:00) Alaska
+    utc:
+    - America/Anchorage
+    - America/Juneau
+    - America/Nome
+    - America/Sitka
+    - America/Yakutat
+    value: Alaskan Standard Time
+  - abbr: PDT
+    isdst: true
+    offset: -7
+    text: (UTC-08:00) Baja California
+    utc:
+    - America/Santa_Isabel
+    value: Pacific Standard Time (Mexico)
+  - abbr: PDT
+    isdst: true
+    offset: -7
+    text: (UTC-07:00) Pacific Time (US & Canada)
+    utc:
+    - America/Dawson
+    - America/Los_Angeles
+    - America/Tijuana
+    - America/Vancouver
+    - America/Whitehorse
+    value: Pacific Daylight Time
+  - abbr: PST
+    isdst: false
+    offset: -8
+    text: (UTC-08:00) Pacific Time (US & Canada)
+    utc:
+    - America/Dawson
+    - America/Los_Angeles
+    - America/Tijuana
+    - America/Vancouver
+    - America/Whitehorse
+    - PST8PDT
+    value: Pacific Standard Time
+  - abbr: UMST
+    isdst: false
+    offset: -7
+    text: (UTC-07:00) Arizona
+    utc:
+    - America/Creston
+    - America/Dawson_Creek
+    - America/Hermosillo
+    - America/Phoenix
+    - Etc/GMT+7
+    value: US Mountain Standard Time
+  - abbr: MDT
+    isdst: true
+    offset: -6
+    text: (UTC-07:00) Chihuahua, La Paz, Mazatlan
+    utc:
+    - America/Chihuahua
+    - America/Mazatlan
+    value: Mountain Standard Time (Mexico)
+  - abbr: MDT
+    isdst: true
+    offset: -6
+    text: (UTC-07:00) Mountain Time (US & Canada)
+    utc:
+    - America/Boise
+    - America/Cambridge_Bay
+    - America/Denver
+    - America/Edmonton
+    - America/Inuvik
+    - America/Ojinaga
+    - America/Yellowknife
+    - MST7MDT
+    value: Mountain Standard Time
+  - abbr: CAST
+    isdst: false
+    offset: -6
+    text: (UTC-06:00) Central America
+    utc:
+    - America/Belize
+    - America/Costa_Rica
+    - America/El_Salvador
+    - America/Guatemala
+    - America/Managua
+    - America/Tegucigalpa
+    - Etc/GMT+6
+    - Pacific/Galapagos
+    value: Central America Standard Time
+  - abbr: CDT
+    isdst: true
+    offset: -5
+    text: (UTC-06:00) Central Time (US & Canada)
+    utc:
+    - America/Chicago
+    - America/Indiana/Knox
+    - America/Indiana/Tell_City
+    - America/Matamoros
+    - America/Menominee
+    - America/North_Dakota/Beulah
+    - America/North_Dakota/Center
+    - America/North_Dakota/New_Salem
+    - America/Rainy_River
+    - America/Rankin_Inlet
+    - America/Resolute
+    - America/Winnipeg
+    - CST6CDT
+    value: Central Standard Time
+  - abbr: CDT
+    isdst: true
+    offset: -5
+    text: (UTC-06:00) Guadalajara, Mexico City, Monterrey
+    utc:
+    - America/Bahia_Banderas
+    - America/Cancun
+    - America/Merida
+    - America/Mexico_City
+    - America/Monterrey
+    value: Central Standard Time (Mexico)
+  - abbr: CCST
+    isdst: false
+    offset: -6
+    text: (UTC-06:00) Saskatchewan
+    utc:
+    - America/Regina
+    - America/Swift_Current
+    value: Canada Central Standard Time
+  - abbr: SPST
+    isdst: false
+    offset: -5
+    text: (UTC-05:00) Bogota, Lima, Quito
+    utc:
+    - America/Bogota
+    - America/Cayman
+    - America/Coral_Harbour
+    - America/Eirunepe
+    - America/Guayaquil
+    - America/Jamaica
+    - America/Lima
+    - America/Panama
+    - America/Rio_Branco
+    - Etc/GMT+5
+    value: SA Pacific Standard Time
+  - abbr: EDT
+    isdst: true
+    offset: -4
+    text: (UTC-05:00) Eastern Time (US & Canada)
+    utc:
+    - America/Detroit
+    - America/Havana
+    - America/Indiana/Petersburg
+    - America/Indiana/Vincennes
+    - America/Indiana/Winamac
+    - America/Iqaluit
+    - America/Kentucky/Monticello
+    - America/Louisville
+    - America/Montreal
+    - America/Nassau
+    - America/New_York
+    - America/Nipigon
+    - America/Pangnirtung
+    - America/Port-au-Prince
+    - America/Thunder_Bay
+    - America/Toronto
+    - EST5EDT
+    value: Eastern Standard Time
+  - abbr: UEDT
+    isdst: true
+    offset: -4
+    text: (UTC-05:00) Indiana (East)
+    utc:
+    - America/Indiana/Marengo
+    - America/Indiana/Vevay
+    - America/Indianapolis
+    value: US Eastern Standard Time
+  - abbr: VST
+    isdst: false
+    offset: -4.5
+    text: (UTC-04:30) Caracas
+    utc:
+    - America/Caracas
+    value: Venezuela Standard Time
+  - abbr: PYT
+    isdst: false
+    offset: -4
+    text: (UTC-04:00) Asuncion
+    utc:
+    - America/Asuncion
+    value: Paraguay Standard Time
+  - abbr: ADT
+    isdst: true
+    offset: -3
+    text: (UTC-04:00) Atlantic Time (Canada)
+    utc:
+    - America/Glace_Bay
+    - America/Goose_Bay
+    - America/Halifax
+    - America/Moncton
+    - America/Thule
+    - Atlantic/Bermuda
+    value: Atlantic Standard Time
+  - abbr: CBST
+    isdst: false
+    offset: -4
+    text: (UTC-04:00) Cuiaba
+    utc:
+    - America/Campo_Grande
+    - America/Cuiaba
+    value: Central Brazilian Standard Time
+  - abbr: SWST
+    isdst: false
+    offset: -4
+    text: (UTC-04:00) Georgetown, La Paz, Manaus, San Juan
+    utc:
+    - America/Anguilla
+    - America/Antigua
+    - America/Aruba
+    - America/Barbados
+    - America/Blanc-Sablon
+    - America/Boa_Vista
+    - America/Curacao
+    - America/Dominica
+    - America/Grand_Turk
+    - America/Grenada
+    - America/Guadeloupe
+    - America/Guyana
+    - America/Kralendijk
+    - America/La_Paz
+    - America/Lower_Princes
+    - America/Manaus
+    - America/Marigot
+    - America/Martinique
+    - America/Montserrat
+    - America/Port_of_Spain
+    - America/Porto_Velho
+    - America/Puerto_Rico
+    - America/Santo_Domingo
+    - America/St_Barthelemy
+    - America/St_Kitts
+    - America/St_Lucia
+    - America/St_Thomas
+    - America/St_Vincent
+    - America/Tortola
+    - Etc/GMT+4
+    value: SA Western Standard Time
+  - abbr: PSST
+    isdst: false
+    offset: -4
+    text: (UTC-04:00) Santiago
+    utc:
+    - America/Santiago
+    - Antarctica/Palmer
+    value: Pacific SA Standard Time
+  - abbr: NDT
+    isdst: true
+    offset: -2.5
+    text: (UTC-03:30) Newfoundland
+    utc:
+    - America/St_Johns
+    value: Newfoundland Standard Time
+  - abbr: ESAST
+    isdst: false
+    offset: -3
+    text: (UTC-03:00) Brasilia
+    utc:
+    - America/Sao_Paulo
+    value: E. South America Standard Time
+  - abbr: AST
+    isdst: false
+    offset: -3
+    text: (UTC-03:00) Buenos Aires
+    utc:
+    - America/Argentina/La_Rioja
+    - America/Argentina/Rio_Gallegos
+    - America/Argentina/Salta
+    - America/Argentina/San_Juan
+    - America/Argentina/San_Luis
+    - America/Argentina/Tucuman
+    - America/Argentina/Ushuaia
+    - America/Buenos_Aires
+    - America/Catamarca
+    - America/Cordoba
+    - America/Jujuy
+    - America/Mendoza
+    value: Argentina Standard Time
+  - abbr: SEST
+    isdst: false
+    offset: -3
+    text: (UTC-03:00) Cayenne, Fortaleza
+    utc:
+    - America/Araguaina
+    - America/Belem
+    - America/Cayenne
+    - America/Fortaleza
+    - America/Maceio
+    - America/Paramaribo
+    - America/Recife
+    - America/Santarem
+    - Antarctica/Rothera
+    - Atlantic/Stanley
+    - Etc/GMT+3
+    value: SA Eastern Standard Time
+  - abbr: GDT
+    isdst: true
+    offset: -3
+    text: (UTC-03:00) Greenland
+    utc:
+    - America/Godthab
+    value: Greenland Standard Time
+  - abbr: MST
+    isdst: false
+    offset: -3
+    text: (UTC-03:00) Montevideo
+    utc:
+    - America/Montevideo
+    value: Montevideo Standard Time
+  - abbr: BST
+    isdst: false
+    offset: -3
+    text: (UTC-03:00) Salvador
+    utc:
+    - America/Bahia
+    value: Bahia Standard Time
+  - abbr: U
+    isdst: false
+    offset: -2
+    text: (UTC-02:00) Coordinated Universal Time-02
+    utc:
+    - America/Noronha
+    - Atlantic/South_Georgia
+    - Etc/GMT+2
+    value: UTC-02
+  - abbr: MDT
+    isdst: true
+    offset: -1
+    text: (UTC-02:00) Mid-Atlantic - Old
+    utc: []
+    value: Mid-Atlantic Standard Time
+  - abbr: ADT
+    isdst: true
+    offset: 0
+    text: (UTC-01:00) Azores
+    utc:
+    - America/Scoresbysund
+    - Atlantic/Azores
+    value: Azores Standard Time
+  - abbr: CVST
+    isdst: false
+    offset: -1
+    text: (UTC-01:00) Cape Verde Is.
+    utc:
+    - Atlantic/Cape_Verde
+    - Etc/GMT+1
+    value: Cape Verde Standard Time
+  - abbr: MDT
+    isdst: true
+    offset: 1
+    text: (UTC) Casablanca
+    utc:
+    - Africa/Casablanca
+    - Africa/El_Aaiun
+    value: Morocco Standard Time
+  - abbr: UTC
+    isdst: false
+    offset: 0
+    text: (UTC) Coordinated Universal Time
+    utc:
+    - America/Danmarkshavn
+    - Etc/GMT
+    value: UTC
+  - abbr: GMT
+    isdst: false
+    offset: 0
+    text: (UTC) Edinburgh, London
+    utc:
+    - Europe/Isle_of_Man
+    - Europe/Guernsey
+    - Europe/Jersey
+    - Europe/London
+    value: GMT Standard Time
+  - abbr: BST
+    isdst: true
+    offset: 1
+    text: (UTC+01:00) Edinburgh, London
+    utc:
+    - Europe/Isle_of_Man
+    - Europe/Guernsey
+    - Europe/Jersey
+    - Europe/London
+    value: British Summer Time
+  - abbr: GDT
+    isdst: true
+    offset: 1
+    text: (UTC) Dublin, Lisbon
+    utc:
+    - Atlantic/Canary
+    - Atlantic/Faeroe
+    - Atlantic/Madeira
+    - Europe/Dublin
+    - Europe/Lisbon
+    value: GMT Standard Time
+  - abbr: GST
+    isdst: false
+    offset: 0
+    text: (UTC) Monrovia, Reykjavik
+    utc:
+    - Africa/Abidjan
+    - Africa/Accra
+    - Africa/Bamako
+    - Africa/Banjul
+    - Africa/Bissau
+    - Africa/Conakry
+    - Africa/Dakar
+    - Africa/Freetown
+    - Africa/Lome
+    - Africa/Monrovia
+    - Africa/Nouakchott
+    - Africa/Ouagadougou
+    - Africa/Sao_Tome
+    - Atlantic/Reykjavik
+    - Atlantic/St_Helena
+    value: Greenwich Standard Time
+  - abbr: WEDT
+    isdst: true
+    offset: 2
+    text: (UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna
+    utc:
+    - Arctic/Longyearbyen
+    - Europe/Amsterdam
+    - Europe/Andorra
+    - Europe/Berlin
+    - Europe/Busingen
+    - Europe/Gibraltar
+    - Europe/Luxembourg
+    - Europe/Malta
+    - Europe/Monaco
+    - Europe/Oslo
+    - Europe/Rome
+    - Europe/San_Marino
+    - Europe/Stockholm
+    - Europe/Vaduz
+    - Europe/Vatican
+    - Europe/Vienna
+    - Europe/Zurich
+    value: W. Europe Standard Time
+  - abbr: CEDT
+    isdst: true
+    offset: 2
+    text: (UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague
+    utc:
+    - Europe/Belgrade
+    - Europe/Bratislava
+    - Europe/Budapest
+    - Europe/Ljubljana
+    - Europe/Podgorica
+    - Europe/Prague
+    - Europe/Tirane
+    value: Central Europe Standard Time
+  - abbr: RDT
+    isdst: true
+    offset: 2
+    text: (UTC+01:00) Brussels, Copenhagen, Madrid, Paris
+    utc:
+    - Africa/Ceuta
+    - Europe/Brussels
+    - Europe/Copenhagen
+    - Europe/Madrid
+    - Europe/Paris
+    value: Romance Standard Time
+  - abbr: CEDT
+    isdst: true
+    offset: 2
+    text: (UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb
+    utc:
+    - Europe/Sarajevo
+    - Europe/Skopje
+    - Europe/Warsaw
+    - Europe/Zagreb
+    value: Central European Standard Time
+  - abbr: WCAST
+    isdst: false
+    offset: 1
+    text: (UTC+01:00) West Central Africa
+    utc:
+    - Africa/Algiers
+    - Africa/Bangui
+    - Africa/Brazzaville
+    - Africa/Douala
+    - Africa/Kinshasa
+    - Africa/Lagos
+    - Africa/Libreville
+    - Africa/Luanda
+    - Africa/Malabo
+    - Africa/Ndjamena
+    - Africa/Niamey
+    - Africa/Porto-Novo
+    - Africa/Tunis
+    - Etc/GMT-1
+    value: W. Central Africa Standard Time
+  - abbr: NST
+    isdst: false
+    offset: 1
+    text: (UTC+01:00) Windhoek
+    utc:
+    - Africa/Windhoek
+    value: Namibia Standard Time
+  - abbr: GDT
+    isdst: true
+    offset: 3
+    text: (UTC+02:00) Athens, Bucharest
+    utc:
+    - Asia/Nicosia
+    - Europe/Athens
+    - Europe/Bucharest
+    - Europe/Chisinau
+    value: GTB Standard Time
+  - abbr: MEDT
+    isdst: true
+    offset: 3
+    text: (UTC+02:00) Beirut
+    utc:
+    - Asia/Beirut
+    value: Middle East Standard Time
+  - abbr: EST
+    isdst: false
+    offset: 2
+    text: (UTC+02:00) Cairo
+    utc:
+    - Africa/Cairo
+    value: Egypt Standard Time
+  - abbr: SDT
+    isdst: true
+    offset: 3
+    text: (UTC+02:00) Damascus
+    utc:
+    - Asia/Damascus
+    value: Syria Standard Time
+  - abbr: EEDT
+    isdst: true
+    offset: 3
+    text: (UTC+02:00) E. Europe
+    utc:
+    - Asia/Nicosia
+    - Europe/Athens
+    - Europe/Bucharest
+    - Europe/Chisinau
+    - Europe/Helsinki
+    - Europe/Kiev
+    - Europe/Mariehamn
+    - Europe/Nicosia
+    - Europe/Riga
+    - Europe/Sofia
+    - Europe/Tallinn
+    - Europe/Uzhgorod
+    - Europe/Vilnius
+    - Europe/Zaporozhye
+    value: E. Europe Standard Time
+  - abbr: SAST
+    isdst: false
+    offset: 2
+    text: (UTC+02:00) Harare, Pretoria
+    utc:
+    - Africa/Blantyre
+    - Africa/Bujumbura
+    - Africa/Gaborone
+    - Africa/Harare
+    - Africa/Johannesburg
+    - Africa/Kigali
+    - Africa/Lubumbashi
+    - Africa/Lusaka
+    - Africa/Maputo
+    - Africa/Maseru
+    - Africa/Mbabane
+    - Etc/GMT-2
+    value: South Africa Standard Time
+  - abbr: FDT
+    isdst: true
+    offset: 3
+    text: (UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius
+    utc:
+    - Europe/Helsinki
+    - Europe/Kiev
+    - Europe/Mariehamn
+    - Europe/Riga
+    - Europe/Sofia
+    - Europe/Tallinn
+    - Europe/Uzhgorod
+    - Europe/Vilnius
+    - Europe/Zaporozhye
+    value: FLE Standard Time
+  - abbr: TDT
+    isdst: false
+    offset: 3
+    text: (UTC+03:00) Istanbul
+    utc:
+    - Europe/Istanbul
+    value: Turkey Standard Time
+  - abbr: JDT
+    isdst: true
+    offset: 3
+    text: (UTC+02:00) Jerusalem
+    utc:
+    - Asia/Jerusalem
+    value: Israel Standard Time
+  - abbr: LST
+    isdst: false
+    offset: 2
+    text: (UTC+02:00) Tripoli
+    utc:
+    - Africa/Tripoli
+    value: Libya Standard Time
+  - abbr: JST
+    isdst: false
+    offset: 3
+    text: (UTC+03:00) Amman
+    utc:
+    - Asia/Amman
+    value: Jordan Standard Time
+  - abbr: AST
+    isdst: false
+    offset: 3
+    text: (UTC+03:00) Baghdad
+    utc:
+    - Asia/Baghdad
+    value: Arabic Standard Time
+  - abbr: KST
+    isdst: false
+    offset: 3
+    text: (UTC+02:00) Kaliningrad
+    utc:
+    - Europe/Kaliningrad
+    value: Kaliningrad Standard Time
+  - abbr: AST
+    isdst: false
+    offset: 3
+    text: (UTC+03:00) Kuwait, Riyadh
+    utc:
+    - Asia/Aden
+    - Asia/Bahrain
+    - Asia/Kuwait
+    - Asia/Qatar
+    - Asia/Riyadh
+    value: Arab Standard Time
+  - abbr: EAST
+    isdst: false
+    offset: 3
+    text: (UTC+03:00) Nairobi
+    utc:
+    - Africa/Addis_Ababa
+    - Africa/Asmera
+    - Africa/Dar_es_Salaam
+    - Africa/Djibouti
+    - Africa/Juba
+    - Africa/Kampala
+    - Africa/Khartoum
+    - Africa/Mogadishu
+    - Africa/Nairobi
+    - Antarctica/Syowa
+    - Etc/GMT-3
+    - Indian/Antananarivo
+    - Indian/Comoro
+    - Indian/Mayotte
+    value: E. Africa Standard Time
+  - abbr: MSK
+    isdst: false
+    offset: 3
+    text: (UTC+03:00) Moscow, St. Petersburg, Volgograd, Minsk
+    utc:
+    - Europe/Kirov
+    - Europe/Moscow
+    - Europe/Simferopol
+    - Europe/Volgograd
+    - Europe/Minsk
+    value: Moscow Standard Time
+  - abbr: SAMT
+    isdst: false
+    offset: 4
+    text: (UTC+04:00) Samara, Ulyanovsk, Saratov
+    utc:
+    - Europe/Astrakhan
+    - Europe/Samara
+    - Europe/Ulyanovsk
+    value: Samara Time
+  - abbr: IDT
+    isdst: true
+    offset: 4.5
+    text: (UTC+03:30) Tehran
+    utc:
+    - Asia/Tehran
+    value: Iran Standard Time
+  - abbr: AST
+    isdst: false
+    offset: 4
+    text: (UTC+04:00) Abu Dhabi, Muscat
+    utc:
+    - Asia/Dubai
+    - Asia/Muscat
+    - Etc/GMT-4
+    value: Arabian Standard Time
+  - abbr: ADT
+    isdst: true
+    offset: 5
+    text: (UTC+04:00) Baku
+    utc:
+    - Asia/Baku
+    value: Azerbaijan Standard Time
+  - abbr: MST
+    isdst: false
+    offset: 4
+    text: (UTC+04:00) Port Louis
+    utc:
+    - Indian/Mahe
+    - Indian/Mauritius
+    - Indian/Reunion
+    value: Mauritius Standard Time
+  - abbr: GET
+    isdst: false
+    offset: 4
+    text: (UTC+04:00) Tbilisi
+    utc:
+    - Asia/Tbilisi
+    value: Georgian Standard Time
+  - abbr: CST
+    isdst: false
+    offset: 4
+    text: (UTC+04:00) Yerevan
+    utc:
+    - Asia/Yerevan
+    value: Caucasus Standard Time
+  - abbr: AST
+    isdst: false
+    offset: 4.5
+    text: (UTC+04:30) Kabul
+    utc:
+    - Asia/Kabul
+    value: Afghanistan Standard Time
+  - abbr: WAST
+    isdst: false
+    offset: 5
+    text: (UTC+05:00) Ashgabat, Tashkent
+    utc:
+    - Antarctica/Mawson
+    - Asia/Aqtau
+    - Asia/Aqtobe
+    - Asia/Ashgabat
+    - Asia/Dushanbe
+    - Asia/Oral
+    - Asia/Samarkand
+    - Asia/Tashkent
+    - Etc/GMT-5
+    - Indian/Kerguelen
+    - Indian/Maldives
+    value: West Asia Standard Time
+  - abbr: YEKT
+    isdst: false
+    offset: 5
+    text: (UTC+05:00) Yekaterinburg
+    utc:
+    - Asia/Yekaterinburg
+    value: Yekaterinburg Time
+  - abbr: PKT
+    isdst: false
+    offset: 5
+    text: (UTC+05:00) Islamabad, Karachi
+    utc:
+    - Asia/Karachi
+    value: Pakistan Standard Time
+  - abbr: IST
+    isdst: false
+    offset: 5.5
+    text: (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi
+    utc:
+    - Asia/Kolkata
+    value: India Standard Time
+  - abbr: SLST
+    isdst: false
+    offset: 5.5
+    text: (UTC+05:30) Sri Jayawardenepura
+    utc:
+    - Asia/Colombo
+    value: Sri Lanka Standard Time
+  - abbr: NST
+    isdst: false
+    offset: 5.75
+    text: (UTC+05:45) Kathmandu
+    utc:
+    - Asia/Kathmandu
+    value: Nepal Standard Time
+  - abbr: CAST
+    isdst: false
+    offset: 6
+    text: (UTC+06:00) Nur-Sultan (Astana)
+    utc:
+    - Antarctica/Vostok
+    - Asia/Almaty
+    - Asia/Bishkek
+    - Asia/Qyzylorda
+    - Asia/Urumqi
+    - Etc/GMT-6
+    - Indian/Chagos
+    value: Central Asia Standard Time
+  - abbr: BST
+    isdst: false
+    offset: 6
+    text: (UTC+06:00) Dhaka
+    utc:
+    - Asia/Dhaka
+    - Asia/Thimphu
+    value: Bangladesh Standard Time
+  - abbr: MST
+    isdst: false
+    offset: 6.5
+    text: (UTC+06:30) Yangon (Rangoon)
+    utc:
+    - Asia/Rangoon
+    - Indian/Cocos
+    value: Myanmar Standard Time
+  - abbr: SAST
+    isdst: false
+    offset: 7
+    text: (UTC+07:00) Bangkok, Hanoi, Jakarta
+    utc:
+    - Antarctica/Davis
+    - Asia/Bangkok
+    - Asia/Hovd
+    - Asia/Jakarta
+    - Asia/Phnom_Penh
+    - Asia/Pontianak
+    - Asia/Saigon
+    - Asia/Vientiane
+    - Etc/GMT-7
+    - Indian/Christmas
+    value: SE Asia Standard Time
+  - abbr: NCAST
+    isdst: false
+    offset: 7
+    text: (UTC+07:00) Novosibirsk
+    utc:
+    - Asia/Novokuznetsk
+    - Asia/Novosibirsk
+    - Asia/Omsk
+    value: N. Central Asia Standard Time
+  - abbr: CST
+    isdst: false
+    offset: 8
+    text: (UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi
+    utc:
+    - Asia/Hong_Kong
+    - Asia/Macau
+    - Asia/Shanghai
+    value: China Standard Time
+  - abbr: NAST
+    isdst: false
+    offset: 8
+    text: (UTC+08:00) Krasnoyarsk
+    utc:
+    - Asia/Krasnoyarsk
+    value: North Asia Standard Time
+  - abbr: MPST
+    isdst: false
+    offset: 8
+    text: (UTC+08:00) Kuala Lumpur, Singapore
+    utc:
+    - Asia/Brunei
+    - Asia/Kuala_Lumpur
+    - Asia/Kuching
+    - Asia/Makassar
+    - Asia/Manila
+    - Asia/Singapore
+    - Etc/GMT-8
+    value: Singapore Standard Time
+  - abbr: WAST
+    isdst: false
+    offset: 8
+    text: (UTC+08:00) Perth
+    utc:
+    - Antarctica/Casey
+    - Australia/Perth
+    value: W. Australia Standard Time
+  - abbr: TST
+    isdst: false
+    offset: 8
+    text: (UTC+08:00) Taipei
+    utc:
+    - Asia/Taipei
+    value: Taipei Standard Time
+  - abbr: UST
+    isdst: false
+    offset: 8
+    text: (UTC+08:00) Ulaanbaatar
+    utc:
+    - Asia/Choibalsan
+    - Asia/Ulaanbaatar
+    value: Ulaanbaatar Standard Time
+  - abbr: NAEST
+    isdst: false
+    offset: 8
+    text: (UTC+08:00) Irkutsk
+    utc:
+    - Asia/Irkutsk
+    value: North Asia East Standard Time
+  - abbr: JST
+    isdst: false
+    offset: 9
+    text: (UTC+09:00) Osaka, Sapporo, Tokyo
+    utc:
+    - Asia/Dili
+    - Asia/Jayapura
+    - Asia/Tokyo
+    - Etc/GMT-9
+    - Pacific/Palau
+    value: Japan Standard Time
+  - abbr: KST
+    isdst: false
+    offset: 9
+    text: (UTC+09:00) Seoul
+    utc:
+    - Asia/Pyongyang
+    - Asia/Seoul
+    value: Korea Standard Time
+  - abbr: CAST
+    isdst: false
+    offset: 9.5
+    text: (UTC+09:30) Adelaide
+    utc:
+    - Australia/Adelaide
+    - Australia/Broken_Hill
+    value: Cen. Australia Standard Time
+  - abbr: ACST
+    isdst: false
+    offset: 9.5
+    text: (UTC+09:30) Darwin
+    utc:
+    - Australia/Darwin
+    value: AUS Central Standard Time
+  - abbr: EAST
+    isdst: false
+    offset: 10
+    text: (UTC+10:00) Brisbane
+    utc:
+    - Australia/Brisbane
+    - Australia/Lindeman
+    value: E. Australia Standard Time
+  - abbr: AEST
+    isdst: false
+    offset: 10
+    text: (UTC+10:00) Canberra, Melbourne, Sydney
+    utc:
+    - Australia/Melbourne
+    - Australia/Sydney
+    value: AUS Eastern Standard Time
+  - abbr: WPST
+    isdst: false
+    offset: 10
+    text: (UTC+10:00) Guam, Port Moresby
+    utc:
+    - Antarctica/DumontDUrville
+    - Etc/GMT-10
+    - Pacific/Guam
+    - Pacific/Port_Moresby
+    - Pacific/Saipan
+    - Pacific/Truk
+    value: West Pacific Standard Time
+  - abbr: TST
+    isdst: false
+    offset: 10
+    text: (UTC+10:00) Hobart
+    utc:
+    - Australia/Currie
+    - Australia/Hobart
+    value: Tasmania Standard Time
+  - abbr: YST
+    isdst: false
+    offset: 9
+    text: (UTC+09:00) Yakutsk
+    utc:
+    - Asia/Chita
+    - Asia/Khandyga
+    - Asia/Yakutsk
+    value: Yakutsk Standard Time
+  - abbr: CPST
+    isdst: false
+    offset: 11
+    text: (UTC+11:00) Solomon Is., New Caledonia
+    utc:
+    - Antarctica/Macquarie
+    - Etc/GMT-11
+    - Pacific/Efate
+    - Pacific/Guadalcanal
+    - Pacific/Kosrae
+    - Pacific/Noumea
+    - Pacific/Ponape
+    value: Central Pacific Standard Time
+  - abbr: VST
+    isdst: false
+    offset: 11
+    text: (UTC+11:00) Vladivostok
+    utc:
+    - Asia/Sakhalin
+    - Asia/Ust-Nera
+    - Asia/Vladivostok
+    value: Vladivostok Standard Time
+  - abbr: NZST
+    isdst: false
+    offset: 12
+    text: (UTC+12:00) Auckland, Wellington
+    utc:
+    - Antarctica/McMurdo
+    - Pacific/Auckland
+    value: New Zealand Standard Time
+  - abbr: U
+    isdst: false
+    offset: 12
+    text: (UTC+12:00) Coordinated Universal Time+12
+    utc:
+    - Etc/GMT-12
+    - Pacific/Funafuti
+    - Pacific/Kwajalein
+    - Pacific/Majuro
+    - Pacific/Nauru
+    - Pacific/Tarawa
+    - Pacific/Wake
+    - Pacific/Wallis
+    value: UTC+12
+  - abbr: FST
+    isdst: false
+    offset: 12
+    text: (UTC+12:00) Fiji
+    utc:
+    - Pacific/Fiji
+    value: Fiji Standard Time
+  - abbr: MST
+    isdst: false
+    offset: 12
+    text: (UTC+12:00) Magadan
+    utc:
+    - Asia/Anadyr
+    - Asia/Kamchatka
+    - Asia/Magadan
+    - Asia/Srednekolymsk
+    value: Magadan Standard Time
+  - abbr: KDT
+    isdst: true
+    offset: 13
+    text: (UTC+12:00) Petropavlovsk-Kamchatsky - Old
+    utc:
+    - Asia/Kamchatka
+    value: Kamchatka Standard Time
+  - abbr: TST
+    isdst: false
+    offset: 13
+    text: (UTC+13:00) Nuku'alofa
+    utc:
+    - Etc/GMT-13
+    - Pacific/Enderbury
+    - Pacific/Fakaofo
+    - Pacific/Tongatapu
+    value: Tonga Standard Time
+  - abbr: SST
+    isdst: false
+    offset: 13
+    text: (UTC+13:00) Samoa
+    utc:
+    - Pacific/Apia
+    value: Samoa Standard Time
+module2:
+  mod2a: 67
+my_bson:
+  test: Test
+my_source:
+  mod1a: 243
+some_ip:
+  $ipv4:
+  - 192
+  - 168
+  - 0
+  - 1
+test-aaa: -1.0e14
+test-eq: '1234'
+test-lt: '-1'
+test-now: '20:27:13'
+test-yyy:
+  generator: ynified-1
+test-zzz: -100000000000000.0
+values:
+- 1
+- true
+- false
+- 42
+- 3.141
+- "\u20AC"
+- -0.0625

@@ -1,0 +1,4 @@
+languages: !source res/languages.json
+currencies: !source res/currencies.json
+timezones: !source res/timezones.json
+countries: !source res/countries.json

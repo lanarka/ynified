@@ -1,0 +1,51 @@
+#
+# Hello World
+# Created <timestamp>, John Doe <email@server.tld>
+#
+--Manifest: 1.0
+
+META-INF:
+  package:
+    id: &root hello_word
+    name: &package-name Hello World
+    version: &package-version 1.0.0
+    version-int: 1
+    release: &package-release Alpha
+    title: !ext:joinstr [
+      *package-name,
+      " ", *package-version,
+      "/", *package-release
+    ]
+    licence: GNU/GPL
+    author: John Doe <email@server.tld>
+    description: >
+      This is a example package.💥
+  transpiler:
+    uid: !ext:uuid4
+    timestamp: !ext:timestamp "%Y/%m/%d %H:%M:%S"
+    signature: !pragma:signature
+    archetype: !pragma:archetype
+
+# Single
+*root: !source root.yaml
+
+# Multi
+*root:
+  cfg: !source root.yaml # config.yaml
+  res: !source root.yaml # resources.yaml
+
+cast-examples:
+  i: !cast:int "1"
+  f: !cast:float "1.1"
+  s: !cast:str 10
+
+
+xxx: !$ ["ls", "--all"]
+#yyy: !secret "Secret"
+
+#test: !math pi
+#wget
+#test1: !get::binary "http://sk.harygroup.com/get/hello.txt"
+#--baseURL: &baseURL http://sk.harygroup.com/ggg/
+#test2: !get::base64 [*baseURL, hello.txt]
+#test3: !get::text [*baseURL, hello.txt]
