@@ -161,10 +161,11 @@ Inline the content of a file, base64-encoded, as a string.
 icon_b64: !load-base64 icon.png
 ```
 
-All of `!source`, `!source-bson`, `!load-text`, `!load-binary` and
-`!load-base64` resolve their path against the manifest directory and
-refuse to resolve outside it (no `../../etc/passwd`, no absolute
-paths) — see [Security](#security) below.
+All of `!source`, `!source-bson`, `!load-text`, `!load-binary`,
+`!load-base64` and `!ext:sha256` resolve their path against the
+manifest directory and refuse to resolve outside it (no
+`../../etc/passwd`, no absolute paths) — see [Security](#security)
+below.
 
 ### Computation
 
@@ -276,6 +277,19 @@ non-numeric text.
 ratio: !valid:float "0.875" # -> 0.875 (float)
 ```
 
+#### `!valid:macaddr <address>`
+
+Accepts six colon- or hyphen-separated hex octets, not mixed
+(`"aa:bb:cc:dd:ee:ff"` or `"AA-BB-CC-DD-EE-FF"`) — rejects the wrong
+number of octets, non-hex characters, or mixed separators.
+
+```yaml
+mac: !valid:macaddr "AA:BB:CC:DD:EE:FF"
+```
+```json
+{"mac": {"$macaddr": [170, 187, 204, 221, 238, 255]}}
+```
+
 ### Utilities (`ext:` namespace)
 
 #### `!ext:uuid4`
@@ -305,6 +319,24 @@ version: &version "1.0.0"
 title: !ext:joinstr [*name, " v", *version]   # -> "My App v1.0.0"
 ```
 
+#### `!ext:sha256 <path>`
+
+Read a file (resolved relative to the manifest directory, same
+path-safety rules as `!source`) and replace the node with its SHA256
+hex digest.
+
+```yaml
+payload_hash: !ext:sha256 payload.bin
+```
+
+#### `!ext:sha256-str <text>`
+
+Compute the SHA256 hex digest of a literal string.
+
+```yaml
+greeting_hash: !ext:sha256-str "Hello"
+```
+
 ---
 
 ## Security
@@ -323,9 +355,9 @@ a full sandbox:
   adversarial manifest could very likely still find a way out. Only
   compile manifests you trust.
 - **File-loading tags** (`!source`, `!source-bson`, `!load-text`,
-  `!load-binary`, `!load-base64`) resolve their path against the
-  manifest directory and reject anything that would resolve outside
-  it (`../..` traversal, absolute paths).
+  `!load-binary`, `!load-base64`, `!ext:sha256`) resolve their path
+  against the manifest directory and reject anything that would
+  resolve outside it (`../..` traversal, absolute paths).
 
 ---
 
@@ -352,3 +384,25 @@ the same way built-in tags are.
 `ynified.output.serialize(data, fmt)` / `write_output(data, path, fmt,
 gzip_compress=False)` turn a compiled dict into `json`/`yaml`/`bson`
 bytes, independently of the CLI.
+
+---
+
+## Examples
+
+The `examples/` directory has one runnable manifest per tag category:
+
+- **`01-sources`** — `!source`, `!source-bson`, `!load-text`,
+  `!load-binary`, `!load-base64`, hidden keys, renaming the output
+  root with an anchor.
+- **`02-computation`** — `!query`, `!eval` (including `Query(...)` and
+  `Info`), `!envvar`.
+- **`03-validators`** — `!valid:ipv4`, `!valid:ipv6`, `!valid:macaddr`,
+  `!valid:int`, `!valid:float`.
+- **`04-utilities`** — `!ext:uuid4`, `!ext:timestamp`, `!ext:joinstr`,
+  `!ext:sha256`, `!ext:sha256-str`.
+
+Each manifest's header comment shows how to run it, e.g.:
+
+```bash
+region=eu-west-1 factor=3 ynified examples/02-computation --to json -v
+```

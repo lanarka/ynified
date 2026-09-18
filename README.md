@@ -21,18 +21,20 @@ poetry install
 ## Quick example
 
 ```bash
-ynified examples/simple --to json
+ynified examples/04-utilities --to json
 ```
 
 ```yaml
-# examples/simple/_default.yaml
+# examples/04-utilities/_default.yaml (excerpt)
 title: !ext:joinstr [My App, " v", "1.0"]
 build_id: !ext:uuid4
-port: !valid:int "8080"
+payload_hash: !ext:sha256 payload.txt
 ```
 
 See [DOC.md](DOC.md) for the full list of tags and how the compiler
-works, and the `examples/` directory for runnable demos.
+works, and the `examples/` directory (`01-sources`, `02-computation`,
+`03-validators`, `04-utilities`) for one runnable demo per tag
+category.
 
 ## Tests
 
