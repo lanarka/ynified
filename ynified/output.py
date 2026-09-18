@@ -5,7 +5,6 @@ to reuse (e.g. to serialize to bytes without touching the filesystem).
 """
 import gzip
 import json
-
 import bson
 import yaml
 

@@ -1,0 +1,31 @@
+# Demonstrates the "composition" tags: pulling other files into the
+# dataset, and the two small structural tricks (hidden keys, renaming
+# the output root with an anchor).
+#
+# Run with:
+#   ynified examples/01-sources --to json -v
+
+# --- !source: merge another YAML (or JSON -- JSON is valid YAML) file ---
+config: !source part.yaml
+
+# --- !source-bson: merge a BSON file ---
+snapshot: !source-bson part.bson
+
+# --- !load-text: inline a file's text content as a string ---
+readme: !load-text note.txt
+
+# --- !load-binary: inline a file's raw bytes as a list of integers ---
+logo_bytes: !load-binary logo.bin
+
+# --- !load-base64: inline a file's bytes, base64-encoded ---
+logo_base64: !load-base64 logo.bin
+
+# --- a hidden top-level key: resolved (and !query-able), but stripped
+#     from the final output because its name starts with "--" ---
+--staging_value: &staging 42
+
+# --- an anchor can be used as a mapping key, which lets a manifest
+#     compute the name of a top-level key ---
+id: &root app_root
+*root:
+  from_hidden_key: *staging

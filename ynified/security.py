@@ -2,8 +2,8 @@
 Security helpers used by the !eval tag and by every file-loading tag
 (!source, !source-bson, !load-text, !load-binary, !load-base64).
 
-honest disclaimer
-------------------
+honest disclaimer:
+
 `safe_eval()` below meaningfully reduces the attack surface of Python's
 `eval()` (no builtins, no dunder-attribute access, no import statements,
 no exec/compile/open/...), but there is no such thing as a fully secure
@@ -89,14 +89,13 @@ def safe_eval(expression, env):
     # env holds process environment variables plus the Query()/Info
     # helpers injected by the compiler; none of those are risky.
     safe_globals.update(env)
-    return eval(code, safe_globals)  # noqa: S307 - deliberately hardened above
+    return eval(code, safe_globals)
 
 
 def safe_join(base_dir, relative_path):
     """
     Resolve `relative_path` against `base_dir` and guarantee the result
     stays inside `base_dir`. Raises PathTraversalError otherwise
-    (e.g. for "../../etc/passwd" or an absolute path).
     """
     if not isinstance(relative_path, str) or not relative_path.strip():
         raise PathTraversalError("empty or invalid file path")
@@ -108,7 +107,6 @@ def safe_join(base_dir, relative_path):
     try:
         common = os.path.commonpath([base_real, target_real])
     except ValueError:
-        # e.g. different drives on Windows
         common = None
 
     if common != base_real:

@@ -6,13 +6,23 @@ EXAMPLES_DIR = os.path.join(os.path.dirname(__file__), "..", "examples")
 
 
 @pytest.fixture
-def simple_dir():
-    return os.path.join(EXAMPLES_DIR, "simple")
+def sources_example_dir():
+    return os.path.join(EXAMPLES_DIR, "01-sources")
 
 
 @pytest.fixture
-def complex_dir():
-    return os.path.join(EXAMPLES_DIR, "complex")
+def computation_example_dir():
+    return os.path.join(EXAMPLES_DIR, "02-computation")
+
+
+@pytest.fixture
+def validators_example_dir():
+    return os.path.join(EXAMPLES_DIR, "03-validators")
+
+
+@pytest.fixture
+def utilities_example_dir():
+    return os.path.join(EXAMPLES_DIR, "04-utilities")
 
 
 @pytest.fixture

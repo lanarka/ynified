@@ -1,0 +1,20 @@
+# Demonstrates the `ext:` utility tags: random IDs, timestamps,
+# string concatenation, and SHA256 hashing (of a file or a string).
+#
+# Run with:
+#   ynified examples/04-utilities --to json -v
+
+name: &app_name My App
+version: &app_version "1.0.0"
+
+build:
+  id: !ext:uuid4
+  built_at: !ext:timestamp "%Y-%m-%d %H:%M:%S"
+  title: !ext:joinstr [*app_name, " v", *app_version]
+
+hashes:
+  # !ext:sha256 hashes the *content* of a file, resolved relative to
+  # this manifest's directory (same path-safety rules as !source).
+  payload_file_sha256: !ext:sha256 payload.txt
+  # !ext:sha256-str hashes a literal string.
+  greeting_sha256: !ext:sha256-str "Hello"

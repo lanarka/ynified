@@ -117,22 +117,81 @@ class TestValidatorTags:
         write(tmp_path / "_default.yaml", 'n: !valid:int "42"\n')
         assert compile_dataset(str(tmp_path)) == {"n": 42}
 
+    def test_valid_macaddr(self, tmp_path):
+        write(tmp_path / "_default.yaml", 'mac: !valid:macaddr "AA:BB:CC:DD:EE:FF"\n')
+        data = compile_dataset(str(tmp_path))
+        assert data == {"mac": {"$macaddr": [0xAA, 0xBB, 0xCC, 0xDD, 0xEE, 0xFF]}}
+
+    def test_invalid_macaddr_raises(self, tmp_path):
+        write(tmp_path / "_default.yaml", 'mac: !valid:macaddr "not-a-mac"\n')
+        with pytest.raises(Exception):
+            compile_dataset(str(tmp_path))
+
+
+class TestSha256Tags:
+    def test_sha256_of_a_string(self, tmp_path):
+        import hashlib
+
+        write(tmp_path / "_default.yaml", 'h: !ext:sha256-str "Hello"\n')
+        data = compile_dataset(str(tmp_path))
+        assert data == {"h": hashlib.sha256(b"Hello").hexdigest()}
+
+    def test_sha256_of_a_file(self, tmp_path):
+        import hashlib
+
+        (tmp_path / "payload.txt").write_bytes(b"Hello")
+        write(tmp_path / "_default.yaml", "h: !ext:sha256 payload.txt\n")
+        data = compile_dataset(str(tmp_path))
+        assert data == {"h": hashlib.sha256(b"Hello").hexdigest()}
+
+    def test_sha256_file_matches_sha256_str_for_same_content(self, tmp_path):
+        (tmp_path / "payload.txt").write_bytes(b"same content")
+        write(
+            tmp_path / "_default.yaml",
+            'from_file: !ext:sha256 payload.txt\nfrom_str: !ext:sha256-str "same content"\n',
+        )
+        data = compile_dataset(str(tmp_path))
+        assert data["from_file"] == data["from_str"]
+
+    def test_sha256_file_cannot_escape_source_directory(self, tmp_path):
+        write(tmp_path / "_default.yaml", "h: !ext:sha256 ../../etc/passwd\n")
+        with pytest.raises(TagError) as exc_info:
+            compile_dataset(str(tmp_path))
+        assert isinstance(exc_info.value.__cause__, PathTraversalError)
+
 
 class TestExampleFixtures:
-    def test_simple_example_compiles(self, simple_dir):
-        data = Compiler(simple_dir).compile()
-        assert data["hello_word"] == {"cfg": {"a": 1, "b": 2}, "res": {"a": 1, "b": 2}}
-        assert data["META-INF"]["package"]["title"] == "Hello World 1.0.0/Alpha"
-        assert "Manifest" not in data  # hidden key stripped
+    def test_01_sources_example_compiles(self, sources_example_dir):
+        data = Compiler(sources_example_dir).compile()
+        assert data["config"] == {"a": 1, "b": 2}
+        assert data["snapshot"] == {"source": "bson", "value": 7}
+        assert data["readme"] == "Hello from note.txt\n"
+        assert data["logo_bytes"] == [1, 2, 3, 4, 5]
+        assert data["app_root"] == {"from_hidden_key": 42}
+        assert "staging_value" not in data  # hidden key stripped
+        json.dumps(data)
 
-    def test_complex_example_compiles(self, complex_dir):
-        data = Compiler(complex_dir, env={"hello": "-100", "world": "World"}).compile()
-        assert data["example"] == {"a": 10, "b": 10, "c": -85}
-        assert data["foo"] == {"x": 10, "y": 20, "z": 10, "a": 30}
-        assert data["net"]["max_clients"] == 254
-        assert data["env"] == {"hello": "-100", "world": "World"}
-        assert "module3" not in data  # hidden key (--module3) stripped
-        # JSON round-trip sanity: the whole thing must be serializable.
+    def test_02_computation_example_compiles(self, computation_example_dir):
+        data = Compiler(computation_example_dir, env={"region": "eu-west-1", "factor": "3"}).compile()
+        assert data["base_price_copy"] == 10
+        assert data["total_price"] == 12.0
+        assert data["scaled_price"] == 30
+        assert data["region"] == "eu-west-1"
+        json.dumps(data)
+
+    def test_03_validators_example_compiles(self, validators_example_dir):
+        data = Compiler(validators_example_dir).compile()
+        assert data["network"]["ipv4"] == {"$ipv4": [192, 168, 1, 10]}
+        assert data["network"]["mac"] == {"$macaddr": [0xAA, 0xBB, 0xCC, 0xDD, 0xEE, 0xFF]}
+        assert data["limits"] == {"max_connections": 254, "load_factor": 0.875}
+        json.dumps(data)
+
+    def test_04_utilities_example_compiles(self, utilities_example_dir):
+        import hashlib
+
+        data = Compiler(utilities_example_dir).compile()
+        assert data["build"]["title"] == "My App v1.0.0"
+        assert data["hashes"]["greeting_sha256"] == hashlib.sha256(b"Hello").hexdigest()
         json.dumps(data)
 
 

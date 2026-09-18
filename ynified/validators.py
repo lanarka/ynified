@@ -13,6 +13,11 @@ from .exceptions import ValidationError
 
 _INT_RE = re.compile(r"^[+-]?\d+$")
 _FLOAT_RE = re.compile(r"^[+-]?(\d+\.\d*|\.\d+|\d+)([eE][+-]?\d+)?$")
+_MAC_RE = re.compile(
+    r"^([0-9A-Fa-f]{2})([:-])"
+    r"([0-9A-Fa-f]{2})\2([0-9A-Fa-f]{2})\2"
+    r"([0-9A-Fa-f]{2})\2([0-9A-Fa-f]{2})\2([0-9A-Fa-f]{2})$"
+)
 
 
 def validate_ipv4(value):
@@ -59,3 +64,18 @@ def validate_float(value):
     if not _FLOAT_RE.match(text):
         raise ValidationError("%r is not a valid float" % value)
     return float(text)
+
+
+def validate_macaddr(value):
+    """
+    Validate a MAC address written as six colon- or hyphen-separated
+    hex octets, not mixed (e.g. "aa:bb:cc:dd:ee:ff" or
+    "AA-BB-CC-DD-EE-FF"). Returns {"$macaddr": [6 octets]}.
+    """
+    text = str(value).strip()
+    match = _MAC_RE.match(text)
+    if not match:
+        raise ValidationError("%r is not a valid MAC address" % value)
+    groups = match.groups()
+    octets = [int(groups[i], 16) for i in (0, 2, 3, 4, 5, 6)]
+    return {"$macaddr": octets}

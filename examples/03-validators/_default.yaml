@@ -1,0 +1,23 @@
+# Demonstrates the `valid:` tags -- they check the given scalar is
+# well-formed and raise a clear error otherwise, they never silently
+# coerce bad input.
+#
+# Run with:
+#   ynified examples/03-validators --to json -v
+
+network:
+  ipv4: !valid:ipv4 "192.168.1.10"
+  ipv6: !valid:ipv6 "fe80::1"
+  mac: !valid:macaddr "AA:BB:CC:DD:EE:FF"
+
+limits:
+  max_connections: !valid:int "254"
+  load_factor: !valid:float "0.875"
+
+# Try uncommenting one of these and re-running to see the validator
+# reject the input with a file:line:column error instead of silently
+# producing a wrong value:
+#
+# bad_ipv4: !valid:ipv4 "999.0.0.1"
+# bad_int:  !valid:int "12.5"
+# bad_mac:  !valid:macaddr "aa:bb-cc:dd:ee:ff"

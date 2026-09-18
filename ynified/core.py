@@ -6,7 +6,9 @@ its custom YAML tags (!source, !eval, !query, ...) into a single
 in-memory Python dict, which can then be serialized to JSON, YAML or
 BSON via `ynified.output`.
 """
+
 import base64
+import hashlib
 import json
 import logging
 import os
@@ -18,6 +20,8 @@ from .exceptions import CompilerError, EvalError
 from .query import Q
 from .security import safe_eval, safe_join
 from .tags import DEFAULT_TAGS, build_loader_class
+
+ynified_version = "0.2.0"
 
 logger = logging.getLogger(__name__)
 
@@ -47,7 +51,7 @@ class Compiler:
         self.preload_data = {}
         self._loader_cls = build_loader_class(self)
 
-    # -- public API ---------------------------------------------------
+    # public API
 
     def compile(self):
         """Run both passes and return the assembled dataset."""
@@ -56,7 +60,7 @@ class Compiler:
         self.preload = False
         return self._run_pass()
 
-    # -- pass machinery -------------------------------------------------
+    # pass machinery
 
     def _run_pass(self):
         try:
@@ -94,7 +98,7 @@ class Compiler:
             return json.loads(json.dumps(visible, default=str))
         return visible
 
-    # -- tag implementations -------------------------------------------
+    # tag implementations
 
     def load_yaml(self, filename):
         path = safe_join(self.source_dir, filename)
@@ -126,13 +130,22 @@ class Compiler:
         with open(path, "rb") as fh:
             return list(fh.read())
 
+    def sha256_file(self, filename):
+        path = safe_join(self.source_dir, filename)
+        logger.debug("Hashing file... %s", filename)
+        hasher = hashlib.sha256()
+        with open(path, "rb") as fh:
+            for chunk in iter(lambda: fh.read(65536), b""):
+                hasher.update(chunk)
+        return hasher.hexdigest()
+
     def pyeval(self, expression):
         env = dict(self.env)
         # During preload, real data isn't assembled yet: Query() returns a
         # neutral placeholder so arithmetic !eval expressions don't crash.
         # The final pass re-evaluates everything with real data anyway.
         env["Query"] = (lambda q: 0) if self.preload else (lambda q: Q(self.preload_data, q))
-        env["Info"] = {"generator": "ynified"}
+        env["YnifiedInfo"] = {"generator": f"ynified {ynified_version}"}
         try:
             return safe_eval(expression, env)
         except EvalError:

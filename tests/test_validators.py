@@ -1,7 +1,13 @@
 import pytest
 
 from ynified.exceptions import ValidationError
-from ynified.validators import validate_float, validate_int, validate_ipv4, validate_ipv6
+from ynified.validators import (
+    validate_float,
+    validate_int,
+    validate_ipv4,
+    validate_ipv6,
+    validate_macaddr,
+)
 
 
 class TestIPv4:
@@ -63,3 +69,32 @@ class TestFloat:
     def test_rejects_invalid_input(self, bad):
         with pytest.raises(ValidationError):
             validate_float(bad)
+
+
+class TestMacAddr:
+    @pytest.mark.parametrize(
+        "value, expected",
+        [
+            ("AA:BB:CC:DD:EE:FF", [0xAA, 0xBB, 0xCC, 0xDD, 0xEE, 0xFF]),
+            ("aa:bb:cc:dd:ee:ff", [0xAA, 0xBB, 0xCC, 0xDD, 0xEE, 0xFF]),
+            ("aa-bb-cc-dd-ee-ff", [0xAA, 0xBB, 0xCC, 0xDD, 0xEE, 0xFF]),
+            ("00:00:00:00:00:00", [0, 0, 0, 0, 0, 0]),
+        ],
+    )
+    def test_accepts_valid_mac_addresses(self, value, expected):
+        assert validate_macaddr(value) == {"$macaddr": expected}
+
+    @pytest.mark.parametrize(
+        "bad",
+        [
+            "aa:bb:cc:dd:ee",  # too short
+            "aa:bb:cc:dd:ee:ff:00",  # too long
+            "aa:bb-cc:dd:ee:ff",  # mixed separators
+            "zz:bb:cc:dd:ee:ff",  # not hex
+            "aabbccddeeff",  # no separators
+            "",
+        ],
+    )
+    def test_rejects_invalid_input(self, bad):
+        with pytest.raises(ValidationError):
+            validate_macaddr(bad)

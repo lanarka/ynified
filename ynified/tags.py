@@ -21,8 +21,14 @@ import yaml
 
 from .exceptions import EnvVarError, TagError, YnifiedError
 from .query import Q
-from .tools import gen_timestamp, gen_uuid4, join_strings
-from .validators import validate_float, validate_int, validate_ipv4, validate_ipv6
+from .tools import gen_timestamp, gen_uuid4, join_strings, sha256_of_string
+from .validators import (
+    validate_float,
+    validate_int,
+    validate_ipv4,
+    validate_ipv6,
+    validate_macaddr,
+)
 
 # Tags that are always available, in the `ext:` (small utilities) and
 # `valid:` (strict input validators) namespaces. Each handler receives
@@ -31,8 +37,10 @@ DEFAULT_TAGS = {
     "ext:uuid4": lambda node: gen_uuid4(),
     "ext:timestamp": lambda node: gen_timestamp(node.value),
     "ext:joinstr": lambda node: join_strings(node.value),
+    "ext:sha256-str": lambda node: sha256_of_string(node.value),
     "valid:ipv4": lambda node: validate_ipv4(node.value),
     "valid:ipv6": lambda node: validate_ipv6(node.value),
+    "valid:macaddr": lambda node: validate_macaddr(node.value),
     "valid:int": lambda node: validate_int(node.value),
     "valid:float": lambda node: validate_float(node.value),
 }
@@ -46,7 +54,7 @@ def _wrap_tag(tag_name, handler):
             return handler(node)
         except YnifiedError as exc:
             raise TagError(tag_name, str(exc), node.start_mark) from exc
-        except Exception as exc:  # noqa: BLE001 - deliberately broad, see module docstring
+        except Exception as exc:
             raise TagError(tag_name, str(exc), node.start_mark) from exc
 
     return _constructor
@@ -98,6 +106,7 @@ def build_loader_class(compiler):
         "eval": _eval,
         "query": _query,
         "envvar": lambda node: _envvar(compiler, node),
+        "ext:sha256": lambda node: compiler.sha256_file(node.value),
     }
 
     all_tags = dict(builtin_tags)

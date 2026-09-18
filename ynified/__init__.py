@@ -1,4 +1,3 @@
-"""ynified - compose datasets from multiple YAML/JSON/BSON sources."""
 from .core import Compiler, compile_dataset
 from .exceptions import (
     CompilerError,
@@ -15,8 +14,6 @@ from .exceptions import (
 )
 from .output import serialize, write_output
 from .query import Q
-
-__version__ = "0.2.0"
 
 __all__ = [
     "Compiler",

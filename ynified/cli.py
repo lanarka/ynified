@@ -1,6 +1,5 @@
 """
 ynified command line interface.
-
     ynified <source_dir> [--to json|yaml|bson] [--gzip] [-o OUTPUT] [-v]
 """
 import argparse
@@ -9,7 +8,7 @@ import logging
 import os
 import sys
 
-from . import __version__
+from .core import ynified_version
 from .core import Compiler
 from .exceptions import YnifiedError
 from .output import SUPPORTED_FORMATS, write_output
@@ -75,7 +74,7 @@ def build_arg_parser():
     parser.add_argument(
         "--version",
         action="version",
-        version="ynified %s" % __version__,
+        version=f"ynified {ynified_version}",
     )
     return parser
 

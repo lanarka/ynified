@@ -1,0 +1,26 @@
+# Demonstrates the "computation" tags: reading values already
+# resolved elsewhere in the manifest, evaluating expressions, and
+# reading process environment variables.
+#
+# Run with:
+#   region=eu-west-1 factor=3 ynified examples/02-computation --to json -v
+
+prices:
+  base: 10
+  tax_rate: 20
+
+# --- !query "dot.path": fetch a value that was already resolved
+#     elsewhere in the (preloaded) dataset ---
+base_price_copy: !query prices.base
+
+# --- !eval: run a Python expression. Query("dot.path") and Info are
+#     always available inside it, alongside every environment variable ---
+total_price: !eval Query("prices.base") * (1 + Query("prices.tax_rate") / 100)
+
+scaled_price: !eval Query("prices.base") * int(factor)
+
+generator_info: !eval YnifiedInfo
+
+# --- !envvar NAME: read a single scalar from a process environment
+#     variable (fails loudly, with file/line/column, if it's not set) ---
+region: !envvar region
