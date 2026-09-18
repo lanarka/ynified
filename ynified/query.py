@@ -1,108 +1,97 @@
 """
-	ynified query
+ynified query -- a tiny "dot path" DSL for pulling a value out of
+nested dict/list data, used by the !query tag and by Query(...) inside
+!eval expressions.
+
+Example
+-------
+    Q(data, "foo.0.bar.baz")           # data["foo"][0]["bar"]["baz"]
+    Q(data, 'foo."Hello World".baz')   # quoted segment with spaces
+
+This implementation walks the parsed path directly against the data
+(plain dict/list indexing) -- it never builds a string and eval()s it,
+so a query path cannot be used to run arbitrary code.
 """
-import shlex
 import re
+import shlex
+
+from .exceptions import QueryDataError, QueryParseError
+
+QUOTE = '"'
+DOT = "."
+
+_ILLEGAL_CHARS = re.compile(r"[^.,~a-zA-Z0-9_]")
 
 
-class QueryCompilerError(Exception):
-	pass
+def _is_quoted(token):
+    return len(token) >= 2 and token[0] == QUOTE and token[-1] == QUOTE
 
 
-class DataError(QueryCompilerError):
-	pass
+def _strip_quotes(token):
+    return token[1:-1]
 
 
-class ParseError(QueryCompilerError):
-	pass
+def _is_plain_and_legal(token):
+    return not bool(_ILLEGAL_CHARS.search(token))
 
 
 class QueryCompiler:
-	QUOTE = '"'
-	DOT = '.'
+    """Parses a dot-path query string into a list of path elements."""
 
-	def __init__(self, query):
-		self.query = query
-		self.parsed = self.parse()
+    def __init__(self, query):
+        self.query = query
+        self.parsed = self.parse()
 
-	def special_match(self, data, search=re.compile(r'[^.,~a-zA-Z0-9]').search):
-		return not bool(search(data))
+    def parse(self):
+        if not isinstance(self.query, str):
+            raise QueryParseError("query must be a string, got %r" % type(self.query))
 
-	def is_quoted(self, data):
-		return data[0] == self.QUOTE
+        tokens = list(shlex.shlex(self.query, posix=False))
+        if not tokens:
+            raise QueryParseError("empty query")
 
-	def remove_quotes(self, data):
-		return data[1:-1]
+        elements = []
+        for token in tokens:
+            if token == DOT:
+                continue
+            if _is_quoted(token):
+                elements.append(_strip_quotes(token))
+                continue
+            if not _is_plain_and_legal(token):
+                raise QueryParseError("illegal character in query segment %r" % token)
+            elements.append(token)
 
-	def parse(self):
-		if not isinstance(self.query, str):
-			raise ParseError("Expected string object!")
-		# is not empty
-		elements = list(shlex.shlex(self.query))	
-		if not len(elements):
-			raise ParseError("No element's found!")
-		# check for illegal characters and remove dots
-		_elements = []
-		for element in elements:
-			if not self.is_quoted(element):
-				if self.special_match(element):
-					if not element == self.DOT:
-						_elements.append(element)
-				else:
-					raise ParseError("Illegal character \"%s\"" % element)
-			else:
-				if not element == self.DOT:
-					_elements.append(element)
-		# create integers for index
-		done = []
-		for element in _elements:
-			try:
-				element = int(element)
-			except:
-				pass
-			done.append(element)
-		# generate python syntax string
-		py_str = ''
-		for element in done:
-			if isinstance(element, int):
-				py_str += "[%s]" % element 
-			else:
-				if self.is_quoted(element):
-					py_str += "['%s']" % self.remove_quotes(element)
-				else:
-					py_str += "['%s']" % element
-		return py_str
+        if not elements:
+            raise QueryParseError("query %r has no path segments" % self.query)
 
-	def throw(self, data):
-		eval_str = "data%s" % self.parsed
-		try:
-			done = eval(eval_str)
-		except:
-			raise DataError("Data evaluation error!")
-		return done
+        path = []
+        for element in elements:
+            try:
+                path.append(int(element))
+            except ValueError:
+                path.append(element)
+        return path
+
+    def resolve(self, data):
+        """Walk `self.parsed` against `data` and return the value found."""
+        current = data
+        walked = []
+        for element in self.parsed:
+            walked.append(element)
+            try:
+                current = current[element]
+            except (KeyError, IndexError, TypeError) as exc:
+                raise QueryDataError(
+                    "cannot resolve %r in query %r (%s)"
+                    % (".".join(str(w) for w in walked), self.query, exc)
+                ) from exc
+        return current
+
+    # Kept for backwards compatibility with earlier call sites.
+    def throw(self, data):
+        return self.resolve(data)
 
 
 def Q(data, query):
-	qc = QueryCompiler(query)
-	return qc.throw(data)
-
-
-if __name__ == '__main__':
-	### Test ###
-	test = lambda q: print("Test... '%s' =>" % q, Q(sample_data, q), type(Q(sample_data, q)))
-
-	sample_data = [[1, 2, dict(FOO=10, bar=[100, 200, 
-			dict(baz=99 ,spam={"Hello World#$" : "Hey!"})])], dict(x='X')]
-
-	#test('')
-	#test('foo."Bar Baz"$')
-	#test('+1')
-	test('0.0')
-	test('1.x')
-	test('0.2.FOO')
-	test('0.2.bar.2.baz')
-	test('0.2.bar.2.spam."Hello World#$" #Note')
-	test('0,1')
-	test('0.{x}.FOO')
-	###test('foo.bar.baz.5~7')
-	###test('foo.bar.baz.~4')
+    """Shorthand: Q(data, "a.b.0.c") -> value, or raises QueryError."""
+    return QueryCompiler(query).resolve(data)

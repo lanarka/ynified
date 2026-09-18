@@ -30,32 +30,32 @@ values:
   - €
   - -0.0625
 
-# test custom function
-hello_reverse: !string-reverse "World"
-
 # eval and query
-example: 
+example:
     a: 10
     b: !query example.a
     c: !eval int(hello)+len(world)+Query("example.a")
-    
+
 foo:
     x: 10
     y: 20
     z: !query foo.x
     a: !eval (Query("foo.y")+Query("foo.x")**2)+int(hello)+Query("example.a")
 
+# input validators
+net:
+  gateway_v4: !valid:ipv4 192.168.0.1
+  gateway_v6: !valid:ipv6 "fe80::1"
+  max_clients: !valid:int "254"
+  load_factor: !valid:float "0.875"
 
-some_ip: !ipv4 192.168.0.1
-
-
-# Experimental 
-test-eq: !if ["=", 100, 100, *node_a, -1]
-test-lt: !if [">", 10,  100, 0, -1]
-
+# reads process environment variables (set `hello`/`world` before running this demo)
+env:
+  hello: !envvar hello
+  world: !envvar world
 
 # LIB
-__now: &now !eval __import__("datetime").datetime.now().strftime("%H:%M:%S")
+__now: &now !ext:timestamp "%H:%M:%S"
 test-now: *now
 
 test-yyy: !eval Info
